@@ -4,10 +4,17 @@
     <title>Posts on John&#39;s Music and Tech</title>
     <link>https://johnsmusicandtech.com/posts/</link>
     <description>Recent content in Posts on John&#39;s Music and Tech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What AI Is Doing to Software Development (and What It Can’t Do Yet)</title>
+      <link>https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/</guid>
+      <description>Reflections on how AI tools like ChatGPT are reshaping software development—from the bookshelf era to side-project breakthroughs.</description>
+    </item>
     <item>
       <title>What I’ve Been Doing and Where I Go From Here</title>
       <link>https://johnsmusicandtech.com/posts/what-ive-been-doing/</link>
@@ -35,46 +42,6 @@
       <guid>https://johnsmusicandtech.com/2023/03/09/texas-steel-guitar-jamboree/</guid>
       <description>&lt;p&gt;I am in Dallas for my first Jamboree! I am halfway through Doug Jerningan&amp;rsquo;s seminar. There is a lot to take in, but it has been very informative. Doug is a great player and teacher. He has prepared an extensive course for today&amp;rsquo;s seminar.&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6188-1.jpg?w=768&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6189.jpg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6191.jpg?w=768&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Android Development with Linux and Ryzen</title>
-      <link>https://johnsmusicandtech.com/2018/01/14/android-development-with-linux-and-ryzen/</link>
-      <pubDate>Sun, 14 Jan 2018 19:53:46 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/2018/01/14/android-development-with-linux-and-ryzen/</guid>
-      <description>&lt;p&gt;Apple macOS is my primary environment these days but I have a PC I like to work with that has gone through quite a number of upgrades over the years. I recently upgraded to an AMD Ryzen 5 1600 CPU and motherboard.  Even though Android has not been my primary development platform I have kept up with Android development going back to the days of Eclipse then Android Studio when it became the official Android development tool. I have been a little frustrated with the Android development environment after spending a lot of time in Xcode and Visual Studio over the years. The Android Studio version 2.0 release seemed very good to me but the emulator performance and build times had still been a little disappointing.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Progress with Android</title>
-      <link>https://johnsmusicandtech.com/2018/01/09/progress-with-android/</link>
-      <pubDate>Wed, 10 Jan 2018 04:21:55 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/2018/01/09/progress-with-android/</guid>
-      <description>&lt;p&gt;I have been working on the Android version of Steel Sidekick and in the process I feel I am making some real progress learning about this platform.  One thing that has been intersting to me is how similar Auto Layout on iOS and Constaint Layout on Android is. While searching for more information on how to better use Constraint Layout I stumbled upon this article:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bignerdranch.com/blog/constraintlayout-vs-auto-layout-how-do-they-compare/&#34;&gt;https://www.bignerdranch.com/blog/constraintlayout-vs-auto-layout-how-do-they-compare/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It looks like Auto Layout and Constraint Layout are both based on research documented in  &amp;quot; &lt;a href=&#34;https://constraints.cs.washington.edu/solvers/cassowary-tochi.pdf&#34;&gt;The Cassowary linear arithmetic constraint solving algorithm&lt;/a&gt;&amp;quot;. Interesting! Anyway, at least we have a layout system very similar to each other on both platforms.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Preparing Steel Sidekick for iPhone X</title>
-      <link>https://johnsmusicandtech.com/2017/11/09/prepare-steel-sidekick-for-iphone-x/</link>
-      <pubDate>Thu, 09 Nov 2017 17:16:39 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/2017/11/09/prepare-steel-sidekick-for-iphone-x/</guid>
-      <description>&lt;p&gt;I just pushed an update of Steel Sidekick to the App Store to support the iPhone X screen resolution. The new &amp;ldquo;notch&amp;rdquo; for the camera was causing some issues.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;iPhoneX-Before&#34; loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2017/11/iphonex-before.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I used the new safeAreaLayoutGuide on the UIView to determine where to display the fretboard.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;if (@available(iOS 11.0, *)) {
-  CGRect safeRect = [self.view.safeAreaLayoutGuide layoutFrame];
-  left = safeRect.origin.x;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After trying a few different layouts I ultimately decided to move the fretboard into the safe area and extend the strings under the notch.
-&lt;img alt=&#34;iPhoneX-After&#34; loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2017/11/iphonex-after1.png&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Thoughts On Cross Platform Mobile Development</title>
-      <link>https://johnsmusicandtech.com/2017/11/02/thoughts-on-cross-platform-mobile-development/</link>
-      <pubDate>Thu, 02 Nov 2017 03:38:45 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/2017/11/02/thoughts-on-cross-platform-mobile-development/</guid>
-      <description>&lt;p&gt;I have been experimenting over the last few years looking for the definite answer to cross platform mobile development. These are some of my thoughts after evaluating some approaches.&lt;/p&gt;
-&lt;h2 id=&#34;hybrid---cordovaphonegap&#34;&gt;Hybrid - Cordova/PhoneGap&lt;/h2&gt;
-&lt;p&gt;Write the app in HTML5 with Javascript. Most of the user interface and code work across Android and iOS. I have done a lot of this at work recently. The big issues are on older version of Android without an updated HTML5 webview. I have also found JavaScript not to be a very good language to write a large, scalable application in although TypeScript/ES6 may change my mind about this. This approach I feel gives advantage to the developer and takes away from the user by not giving them a full native experience on the platform.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

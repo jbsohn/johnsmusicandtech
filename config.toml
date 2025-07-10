@@ -4,3 +4,9 @@ languageCode = "en-us"
 title = "John's Music and Tech"
 theme = "PaperMod"
 publishDir = "docs"
+
+[params]
+  [params.analytics]
+    [params.analytics.plausible]
+      domain = "johnsmusicandtech.com"
+      enable = true

@@ -5,6 +5,3 @@ title = "John's Music and Tech"
 theme = "PaperMod"
 publishDir = "docs"
 
-[params]
-ShowTags = false
-

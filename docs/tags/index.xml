@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on John&#39;s Music and Tech</title>
-    <link>http://localhost:51150/tags/</link>
+    <link>https://johnsmusicandtech.com/tags/</link>
     <description>Recent content in Tags on John&#39;s Music and Tech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51150/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnsmusicandtech.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Benjamin Franklin</title>
-      <link>http://localhost:51150/tags/benjamin-franklin/</link>
+      <link>https://johnsmusicandtech.com/tags/benjamin-franklin/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/tags/benjamin-franklin/</guid>
+      <guid>https://johnsmusicandtech.com/tags/benjamin-franklin/</guid>
       <description></description>
     </item>
     <item>
       <title>Honest Review</title>
-      <link>http://localhost:51150/tags/honest-review/</link>
+      <link>https://johnsmusicandtech.com/tags/honest-review/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/tags/honest-review/</guid>
+      <guid>https://johnsmusicandtech.com/tags/honest-review/</guid>
       <description></description>
     </item>
     <item>
       <title>Music Education</title>
-      <link>http://localhost:51150/tags/music-education/</link>
+      <link>https://johnsmusicandtech.com/tags/music-education/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/tags/music-education/</guid>
+      <guid>https://johnsmusicandtech.com/tags/music-education/</guid>
       <description></description>
     </item>
     <item>
       <title>Online Learning</title>
-      <link>http://localhost:51150/tags/online-learning/</link>
+      <link>https://johnsmusicandtech.com/tags/online-learning/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/tags/online-learning/</guid>
+      <guid>https://johnsmusicandtech.com/tags/online-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Pedal Steel</title>
-      <link>http://localhost:51150/tags/pedal-steel/</link>
+      <link>https://johnsmusicandtech.com/tags/pedal-steel/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/tags/pedal-steel/</guid>
+      <guid>https://johnsmusicandtech.com/tags/pedal-steel/</guid>
       <description></description>
     </item>
   </channel>

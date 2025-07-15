@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Honest Review on John&#39;s Music and Tech</title>
-    <link>http://localhost:51150/tags/honest-review/</link>
+    <link>https://johnsmusicandtech.com/tags/honest-review/</link>
     <description>Recent content in Honest Review on John&#39;s Music and Tech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51150/tags/honest-review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnsmusicandtech.com/tags/honest-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🎸 What I Learned (and Didn’t) from the Founding Father Method™</title>
-      <link>http://localhost:51150/posts/what-i-learned-from-founding-father-method.md/</link>
+      <link>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/posts/what-i-learned-from-founding-father-method.md/</guid>
+      <guid>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</guid>
       <description>An honest, good-faith reflection on a high-profile steel guitar course (yes, that one). What worked, what didn’t, and what I wish I knew before signing up.</description>
     </item>
   </channel>

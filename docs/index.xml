@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>John&#39;s Music and Tech</title>
-    <link>http://localhost:51150/</link>
+    <link>https://johnsmusicandtech.com/</link>
     <description>Recent content on John&#39;s Music and Tech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51150/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnsmusicandtech.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🎸 What I Learned (and Didn’t) from the Founding Father Method™</title>
-      <link>http://localhost:51150/posts/what-i-learned-from-founding-father-method.md/</link>
+      <link>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/posts/what-i-learned-from-founding-father-method.md/</guid>
+      <guid>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</guid>
       <description>An honest, good-faith reflection on a high-profile steel guitar course (yes, that one). What worked, what didn’t, and what I wish I knew before signing up.</description>
     </item>
     <item>
       <title>What AI Is Doing to Software Development (and What It Can’t Do Yet)</title>
-      <link>http://localhost:51150/posts/what-ai-is-doing-to-software-development/</link>
+      <link>https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/posts/what-ai-is-doing-to-software-development/</guid>
+      <guid>https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/</guid>
       <description>Reflections on how AI tools like ChatGPT are reshaping software development—from the bookshelf era to side-project breakthroughs.</description>
     </item>
     <item>
       <title>What I’ve Been Doing and Where I Go From Here</title>
-      <link>http://localhost:51150/posts/what-ive-been-doing/</link>
+      <link>https://johnsmusicandtech.com/posts/what-ive-been-doing/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51150/posts/what-ive-been-doing/</guid>
+      <guid>https://johnsmusicandtech.com/posts/what-ive-been-doing/</guid>
       <description>&lt;p&gt;For the past few years, I’ve been balancing a range of creative and technical interests — pedal steel guitar, app development, retro computing, and more — all while working full-time at Sweetwater in Fort Wayne, IN. I’ve been part of both the mobile and desktop teams there for over five years, helping build the tools customers use every day.&lt;/p&gt;
 &lt;p&gt;I’ve also moved the blog to a new domain: &lt;strong&gt;johnsmusicandtech.com&lt;/strong&gt;. The name reflects what this space is really about — the intersection of sound and software, strings and code, music and machines. It&amp;rsquo;s still me writing, just under a name that better fits the shape of things going forward.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GFI</title>
-      <link>http://localhost:51150/2023/03/10/gfi/</link>
+      <link>https://johnsmusicandtech.com/2023/03/10/gfi/</link>
       <pubDate>Fri, 10 Mar 2023 20:04:24 +0000</pubDate>
-      <guid>http://localhost:51150/2023/03/10/gfi/</guid>
+      <guid>https://johnsmusicandtech.com/2023/03/10/gfi/</guid>
       <description>&lt;p&gt;Two historic guitars are on display in the GFI room.&lt;/p&gt;
 &lt;p&gt;This belonged to Ralph Mooney:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6196.jpeg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6195.jpeg?w=1024&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6196.jpeg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6195.jpeg?w=1024&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This was a Gene Fields guitar:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6198.jpeg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6197.jpeg?w=1024&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6198.jpeg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6197.jpeg?w=1024&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Gene was a great innovator. It was interesting to see his work in person.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Texas Steel Guitar Jamboree</title>
-      <link>http://localhost:51150/2023/03/09/texas-steel-guitar-jamboree/</link>
+      <link>https://johnsmusicandtech.com/2023/03/09/texas-steel-guitar-jamboree/</link>
       <pubDate>Thu, 09 Mar 2023 18:53:44 +0000</pubDate>
-      <guid>http://localhost:51150/2023/03/09/texas-steel-guitar-jamboree/</guid>
+      <guid>https://johnsmusicandtech.com/2023/03/09/texas-steel-guitar-jamboree/</guid>
       <description>&lt;p&gt;I am in Dallas for my first Jamboree! I am halfway through Doug Jerningan&amp;rsquo;s seminar. There is a lot to take in, but it has been very informative. Doug is a great player and teacher. He has prepared an extensive course for today&amp;rsquo;s seminar.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6188-1.jpg?w=768&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6189.jpg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:51150/wp-content/uploads/2023/03/img_6191.jpg?w=768&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6188-1.jpg?w=768&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6189.jpg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6191.jpg?w=768&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,6 +6,5 @@ theme = "PaperMod"
 publishDir = "docs"
 
 [params]
-  [params.assets]
-    customJS = ["custom-head"]
+ShowTags = false
 

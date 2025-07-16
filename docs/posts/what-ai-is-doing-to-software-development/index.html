@@ -5,10 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>What AI Is Doing to Software Development (and What It Can’t Do Yet) | John&#39;s Music and Tech</title>
+<title>What AI Is Doing to Software Development (and What It Can’t Do Yet) | John&#39;s Music &amp; Tech</title>
 <meta name="keywords" content="">
 <meta name="description" content="Reflections on how AI tools like ChatGPT are reshaping software development—from the bookshelf era to side-project breakthroughs.">
-<meta name="author" content="">
+<meta name="author" content="John Sohn">
 <link rel="canonical" href="https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://johnsmusicandtech.com/favicon.ico">
@@ -56,7 +56,7 @@
 
     </style>
 </noscript><script data-goatcounter="https://jsohn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><meta property="og:url" content="https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/">
-  <meta property="og:site_name" content="John&#39;s Music and Tech">
+  <meta property="og:site_name" content="John&#39;s Music & Tech">
   <meta property="og:title" content="What AI Is Doing to Software Development (and What It Can’t Do Yet)">
   <meta property="og:description" content="Reflections on how AI tools like ChatGPT are reshaping software development—from the bookshelf era to side-project breakthroughs.">
   <meta property="og:locale" content="en-us">
@@ -104,13 +104,17 @@
   "inLanguage": "en",
   "datePublished": "2025-07-06T00:00:00Z",
   "dateModified": "2025-07-06T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "John Sohn"
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "John's Music and Tech",
+    "name": "John's Music \u0026 Tech",
     "logo": {
       "@type": "ImageObject",
       "url": "https://johnsmusicandtech.com/favicon.ico"
@@ -135,7 +139,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://johnsmusicandtech.com/" accesskey="h" title="John&#39;s Music and Tech (Alt + H)">John&#39;s Music and Tech</a>
+            <a href="https://johnsmusicandtech.com/" accesskey="h" title="John&#39;s Music &amp; Tech (Alt + H)">John&#39;s Music &amp; Tech</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -167,14 +171,14 @@
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://johnsmusicandtech.com/">Home</a>&nbsp;»&nbsp;<a href="https://johnsmusicandtech.com/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       What AI Is Doing to Software Development (and What It Can’t Do Yet)
     </h1>
     <div class="post-description">
       Reflections on how AI tools like ChatGPT are reshaping software development—from the bookshelf era to side-project breakthroughs.
     </div>
-    <div class="post-meta"><span title='2025-07-06 00:00:00 +0000 UTC'>July 6, 2025</span>
+    <div class="post-meta"><span title='2025-07-06 00:00:00 +0000 UTC'>July 6, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;1253 words&nbsp;·&nbsp;John Sohn
 
 </div>
   </header> 
@@ -243,12 +247,25 @@ This post itself was written with help from AI—specifically, ChatGPT. I had th
   </div>
 
   <footer class="post-footer">
+<nav class="paginav">
+  <a class="prev" href="https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>🎸 What I Learned (and Didn’t) from the Founding Father Method™</span>
+  </a>
+  <a class="next" href="https://johnsmusicandtech.com/posts/what-ive-been-doing/">
+    <span class="title">Next »</span>
+    <br>
+    <span>What I’ve Been Doing and Where I Go From Here</span>
+  </a>
+</nav>
+
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://johnsmusicandtech.com/">John&#39;s Music and Tech</a></span> · 
+        <span>&copy; 2025 <a href="https://johnsmusicandtech.com/">John&#39;s Music &amp; Tech</a></span> · 
 
     <span>
         Powered by
@@ -315,6 +332,53 @@ This post itself was written with help from AI—specifically, ChatGPT. I had th
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

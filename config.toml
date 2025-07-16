@@ -1,7 +1,21 @@
 # hugo.toml
+
 baseURL = "https://johnsmusicandtech.com/"
 languageCode = "en-us"
-title = "John's Music and Tech"
+title = "John's Music & Tech"
 theme = "PaperMod"
 publishDir = "docs"
 
+[params]
+  author = "John Sohn"
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  defaultTheme = "auto"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

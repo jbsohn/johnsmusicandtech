@@ -88,7 +88,7 @@ Decades passed. But I never forgot that feeling.
 
 ## 🛠️ Digging It Out of the Past
 
-When I finally pulled my old ST gear out of storage, I wasn’t sure what I’d find. The hard drive was still there — a towering ACSI unit that hadn’t spun up in over 30 years. I had no idea if it would still work. It had some rust on the outside. But it still worked! I used a **Gotek** floppy emulator and an **ACSI2SD** adapter to carefully pull files off it, one sector at a time.
+When I finally pulled my old ST gear out of storage a couple of years ago, I wasn’t sure what I’d find. The hard drive was still there — a huge ACSI unit that hadn’t spun up in nearly 30 years. The hard drive had some rust on the outside but it still worked! I used a **Gotek** floppy emulator and later an **ACSI2SD** adapter to carefully pull files off it, one sector at a time.
 
 There were my old source files. My utilities. Even *Zapenu*. Code I hadn’t seen since I was in college, blinking back at me in a modern text editor.
 

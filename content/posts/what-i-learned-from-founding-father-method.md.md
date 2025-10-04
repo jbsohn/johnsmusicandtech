@@ -1,9 +1,9 @@
 ---
 title: "🎸 What I Learned (and Didn’t) from the Founding Father Method™"
 date: 2025-07-13
-tags: ["pedal steel", "honest review", "Benjamin Franklin", "music education", "online learning"]
+tags: ["pedal steel", "honest review", "Benjamin Franklin", "music education", "online learning", "Paul Westerberg", "Paul", "Benjamin", "Westerberg", "Franklin"]
 draft: false
-description: "An honest, good-faith reflection on a high-profile steel guitar course (yes, that one). What worked, what didn’t, and what I wish I knew before signing up."
+description: "An honest, good-faith reflection on a high-profile steel guitar course (yes, that one). What worked, what didn’t, and what I wish I knew before signing up. My Paul Westerberg “Let It Be” moment."
 ---
 
 # 🎸 What I Learned (and Didn’t) from the "Founding Father Method™"  

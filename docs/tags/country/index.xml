@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Country on John&#39;s Music &amp; Tech</title>
+    <link>https://johnsmusicandtech.com/tags/country/</link>
+    <description>Recent content in Country on John&#39;s Music &amp; Tech</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://johnsmusicandtech.com/tags/country/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Space Invaders Snare: Alabama’s Accidental Arcade Moment</title>
+      <link>https://johnsmusicandtech.com/posts/space-invaders-snare/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/posts/space-invaders-snare/</guid>
+      <description>When Alabama tried to go digital and accidentally went arcade instead.</description>
+    </item>
+  </channel>
+</rss>

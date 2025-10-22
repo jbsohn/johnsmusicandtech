@@ -17,7 +17,7 @@ date: 2025-10-21
 
 The ad was absurd: someone sitting in a restaurant, realizing they couldn’t pay their check — then opening a game on their phone, playing for two minutes, and *bam!* their PayPal balance jumps by sixty-six bucks. Problem solved.
 
-It was so over the top I had to laugh. But the more I thought about it, the more I wondered: how is this even **allowed**? This wasn’t a back-alley website or some sketchy APK download — it was advertised as an App Store game. That’s when curiosity got the better of me.
+It was so over the top I had to laugh. But the more I thought about it, the more I wondered: how is this even allowed? This wasn’t a back-alley website or some sketchy APK download — it was advertised as an App Store game. That’s when curiosity got the better of me.
 
 ---
 
@@ -25,13 +25,13 @@ It was so over the top I had to laugh. But the more I thought about it, the more
 
 I didn’t download it — I’m not that crazy 🤪 — but I was curious how something like this slips through. 
 
-It’s a so-called **“cash game” app** available on the App Store, and if you dig in you’ll find many of these titles list **no in-app purchases (IAPs)**. That alone is a red flag: if you can “win money” but there are no IAPs — meaning no legitimate way for players to spend or earn real money through Apple’s own payment system — then where’s the money coming from? The answer, of course, appears to be *nowhere.* It looks like a predatory cash-game ad — part of a growing wave of similar promotions across social platforms.
+It’s a so-called “cash game” app available on the App Store, and if you dig in you’ll find many of these titles list no in-app purchases (IAPs). That alone is a red flag: if you can “win money” but there are no IAPs — meaning no legitimate way for players to spend or earn real money through Apple’s own payment system — then where’s the money coming from? The answer, of course, appears to be *nowhere.* It looks like a predatory cash-game ad — part of a growing wave of similar promotions across social platforms.
 
-Every “win-cash” flow follows the same pattern: it starts with *bonus cash* — $10, $20, sometimes even $50 “just for signing up.” But that money often isn’t withdrawable; you can only *spend* it playing matches against other players. Eventually, the app starts nudging you toward a deposit so you can “unlock” higher-payout games. And here’s the trick: there’s **no Apple-branded purchase screen.** No Face ID confirmation, no receipt in your email, nothing that goes through Apple’s system at all. The payments often happen through a webview — basically a little in-app browser — that routes you to a third-party checkout. That’s how these companies dodge Apple’s in-app purchase disclosure rules.
+Every “win-cash” flow follows the same pattern: it starts with *bonus cash* — $10, $20, sometimes even $50 “just for signing up.” But that money often isn’t withdrawable; you can only *spend* it playing matches against other players. Eventually, the app starts nudging you toward a deposit so you can “unlock” higher-payout games. And here’s the trick: there’s no Apple-branded purchase screen. No Face ID confirmation, no receipt in your email, nothing that goes through Apple’s system at all. The payments often happen through a webview — basically a little in-app browser — that routes you to a third-party checkout. That’s how these companies dodge Apple’s in-app purchase disclosure rules.
 
-It’s all technically legal because of the **“external payment”** loophole Apple had to open after the Epic Games litigation and regulatory changes. What was meant to help honest developers avoid a high commission now lets shady operators hide behind off-platform transactions. Apple doesn’t list those flows as “in-app purchases,” because technically, they aren’t.
+It’s all technically legal because of the “external payment” loophole Apple had to open after the Epic Games litigation and regulatory changes. What was meant to help honest developers avoid a high commission now lets shady operators hide behind off-platform transactions. Apple doesn’t list those flows as “in-app purchases,” because technically, they aren’t.
 
-Then there’s the PayPal logo. The ads and checkout pages flash it everywhere, implying some kind of official partnership. That can be misleading to consumers: anyone can use PayPal as a payment processor, but the branding gives a false sense of endorsement. It’s trust-by-association — or really, **trust laundering** through familiar logos.
+Then there’s the PayPal logo. The ads and checkout pages flash it everywhere, implying some kind of official partnership. That can be misleading to consumers: anyone can use PayPal as a payment processor, but the branding gives a false sense of endorsement. It’s trust-by-association — or really, trust laundering through familiar logos.
 
 ---
 
@@ -66,9 +66,9 @@ The old argument was that Apple’s commission was too high. And yeah, many deve
 
 ## When the Rules Worked *Too* Well
 
-I’ve actually been on the other side of this — as a **developer.** Apple once rejected one of my own app submissions simply because I hadn’t yet adopted a **privacy policy.** And to be fair, that was the right call. They were serious about protecting users back then. 
+I’ve actually been on the other side of this — as a developer. Apple once rejected one of my own app submissions simply because I hadn’t yet adopted a privacy policy. And to be fair, that was the right call. They were serious about protecting users back then. 
 
-But it didn’t stop there. I’ve worked on apps where Apple rejected builds for using **certain web content** — things that would have been fine anywhere else. Meanwhile, the Android version of the exact same app frequently sailed through Google Play without a hiccup. At the time, that difference felt *reassuring*. Apple’s strict review process used to be the reason people trusted the platform. You could disagree with their commission model, sure — but at least the apps themselves felt safe.
+But it didn’t stop there. I’ve worked on apps where Apple rejected builds for using certain web content — things that would have been fine anywhere else. Meanwhile, the Android version of the exact same app frequently sailed through Google Play without a hiccup. At the time, that difference felt *reassuring*. Apple’s strict review process used to be the reason people trusted the platform. You could disagree with their commission model, sure — but at least the apps themselves felt safe.
 
 That’s what makes this new era so jarring. The same company that once rejected apps for minor compliance issues now hosts flashy “earn-money” games that make sweeping payout claims. It’s not just hypocrisy — it *feels* like a collapse of standards.
 
@@ -76,11 +76,11 @@ That’s what makes this new era so jarring. The same company that once rejected
 
 ## The Takeaway
 
-If Apple’s old App Store was a **walled garden**, the new one feels more like a **carnival midway**. The rules are looser, the scams are slicker, and the trust Apple spent years building is being eroded by lax ad vetting and creative legal workarounds.
+If Apple’s old App Store was a walled garden, the new one feels more like a carnival midway. The rules are looser, the scams are slicker, and the trust Apple spent years building is being eroded by lax ad vetting and creative legal workarounds.
 
 Meanwhile, legitimate developers still get flagged for privacy compliance issues. It’s kind of heartbreaking to see a platform once known for curation now hosting so much digital snake oil.
 
-To be fair, the App Store still does an excellent job at what it was originally built for: keeping **malware** off your device. You’re unlikely to download something that hijacks your phone or steals your contacts. The problem now isn’t technical safety — it’s **psychological safety.** The threats aren’t in the code; they’re in the marketing.
+To be fair, the App Store still does an excellent job at what it was originally built for: keeping malware off your device. You’re unlikely to download something that hijacks your phone or steals your contacts.
 
 ---
 
@@ -111,16 +111,6 @@ At first glance, it’s easy to scoff at someone believing they can earn cash in
 - **The Math of Manipulation:** Even a small percentage of paying users scales quickly into sizable profit.
 
 That’s the real tragedy — not gullibility, but misplaced trust.
-
----
-
-## 🧩 Postscript — What’s Really Going On?
-
-After years of tight control and curation, the platform environment has loosened. Maybe that’s intentional, maybe it’s regulatory fallout, or maybe it’s resource prioritization. Whatever the reason, the result is similar: more deceptive marketing lives side-by-side with otherwise safe apps.
-
-The platforms still have the capability to act. They still approve binaries, host search results, and profit from ad buys. Choosing when and how to enforce is a policy decision — and one that affects real people.
-
-Apple’s policies still prohibit deceptive marketing, review manipulation, and fake payouts — but enforcement and platform incentives have shifted. The problems described here are mostly about **psychological safety** and platform oversight, not malware or obvious technical threats.
 
 ---
 

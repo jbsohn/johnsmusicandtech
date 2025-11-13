@@ -6,6 +6,13 @@ title = "John's Music & Tech"
 theme = "PaperMod"
 publishDir = "docs"
 
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 10
+
 [params]
   author = "John Sohn"
   ShowReadingTime = true

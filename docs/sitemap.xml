@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/posts/app-store-wild-west/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +17,10 @@
     <loc>https://johnsmusicandtech.com/tags/apple/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/mobile-development/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/policy/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/posts/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/privacy/</loc>

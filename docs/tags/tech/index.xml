@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech on John&#39;s Music &amp; Tech</title>
+    <link>http://localhost:1313/tags/tech/</link>
+    <description>Recent content in Tech on John&#39;s Music &amp; Tech</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2025 10:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The $51 Printer That Outlived Everything: A 2025 Look at the Brother HL-2230</title>
+      <link>http://localhost:1313/posts/brother-hl-2230-long-term-review/</link>
+      <pubDate>Thu, 13 Nov 2025 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/brother-hl-2230-long-term-review/</guid>
+      <description>A 12-year retrospective on a $51 Brother HL-2230 laser printer that quietly outlived computers, operating systems, and entire life chapters — and still just works in 2025.</description>
+    </item>
+  </channel>
+</rss>

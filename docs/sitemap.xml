@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/categories/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/hardware/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://johnsmusicandtech.com/tags/long-term-review/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/nostalgia/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/printers/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/tech/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/tech/</loc>
+    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/posts/app-store-wild-west/</loc>
@@ -27,9 +54,6 @@
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/scams/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/engineering/</loc>
@@ -132,9 +156,6 @@
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/c-programming/</loc>
-    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/categories/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/midi/</loc>

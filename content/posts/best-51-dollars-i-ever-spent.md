@@ -1,7 +1,6 @@
 ---
 title: "The $51 Printer That Outlived Everything: A 2025 Look at the Brother HL-2230"
 date: 2025-11-13T10:00:00-05:00
-draft: true
 tags:
   - tech
   - hardware

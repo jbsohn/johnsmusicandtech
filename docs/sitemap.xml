@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/</loc>
+    <lastmod>2026-01-28T09:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2026-01-28T09:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/ai/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/fork-fatigue-vscode-and-lessons-we-never-seem-to-learn/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/open-source/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/software-history/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/vscode/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/categories/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/hardware/</loc>
-    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/long-term-review/</loc>
@@ -17,13 +38,7 @@
     <loc>https://johnsmusicandtech.com/tags/nostalgia/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/posts/</loc>
-    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/printers/</loc>
-    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/categories/tech/</loc>

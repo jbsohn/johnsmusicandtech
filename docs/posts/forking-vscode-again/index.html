@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Are We Really Forking Visual Studio Code Again? | John&#39;s Music &amp; Tech</title>
+<meta name="keywords" content="vscode, open-source, ai, software-history">
+<meta name="description" content="I’ve been a developer long enough to remember when this was the year of the Linux desktop.
+We heard it every year. The technology was there. The talent was there. The passion was definitely there. What never quite materialized was coordination — agreement on where collaboration should stop and competition should begin.
+So when I look at what’s happening today around editors and AI tooling, I don’t feel outrage. I don’t feel betrayed. I mostly feel a familiar, slightly exhausted thought forming:">
+<meta name="author" content="John Sohn">
+<link rel="canonical" href="http://localhost:1313/posts/forking-vscode-again/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/forking-vscode-again/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><script data-goatcounter="https://jsohn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="John&#39;s Music &amp; Tech (Alt + H)">John&#39;s Music &amp; Tech</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Are We Really Forking Visual Studio Code Again?
+    </h1>
+    <div class="post-meta"><span title='2026-01-19 00:00:00 +0000 UTC'>January 19, 2026</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1543 words&nbsp;·&nbsp;John Sohn
+
+</div>
+  </header> 
+  <div class="post-content"><p>I’ve been a developer long enough to remember when <em>this was the year of the Linux desktop</em>.</p>
+<p>We heard it every year. The technology was there. The talent was there. The passion was definitely there. What never quite materialized was coordination — agreement on where collaboration should stop and competition should begin.</p>
+<p>So when I look at what’s happening today around editors and AI tooling, I don’t feel outrage. I don’t feel betrayed. I mostly feel a familiar, slightly exhausted thought forming:</p>
+<p><strong>C’mon guys… are we really doing this again?</strong></p>
+<hr>
+<h2 id="a-quick-clarification-up-front">A quick clarification up front<a hidden class="anchor" aria-hidden="true" href="#a-quick-clarification-up-front">#</a></h2>
+<p>Nothing about what’s happening right now is dishonest.</p>
+<p>Nobody is stealing code.<br>
+Nobody is violating licenses.<br>
+Nobody is acting in bad faith.</p>
+<p>This is all legal. Ethical. Allowed.</p>
+<p>That’s actually what makes it interesting — and frustrating.</p>
+<p>This isn’t a morality problem.<br>
+It’s a <strong>coordination problem</strong>.</p>
+<hr>
+<h2 id="weve-seen-this-movie-before">We’ve seen this movie before<a hidden class="anchor" aria-hidden="true" href="#weve-seen-this-movie-before">#</a></h2>
+<p>Not always as forks, but as parallel foundations competing at the same layer:</p>
+<ul>
+<li>KDE vs GNOME</li>
+<li>Emacs vs XEmacs</li>
+<li>Vim vs Neovim</li>
+<li>Flatpak vs Snap</li>
+<li>RPM vs DEB</li>
+</ul>
+<p>Each of these made sense locally. Each had real motivations and smart people behind it. But collectively, the ecosystem paid for it — in fragmentation, duplicated effort, and momentum that never quite compounded.</p>
+<p>So when people say “this time it’s different,” my reaction isn’t anger. It’s pattern recognition.</p>
+<hr>
+<h2 id="vs-code-actually-solved-something">VS Code actually solved something<a hidden class="anchor" aria-hidden="true" href="#vs-code-actually-solved-something">#</a></h2>
+<p>Here’s the uncomfortable part.</p>
+<p>Visual Studio Code is… good.</p>
+<p>It’s fast.<br>
+It’s boring in the right ways.<br>
+It’s extensible.<br>
+It mostly gets out of your way.</p>
+<p>I never thought I’d move away from Vim — and yet here we are. VS Code became my go-to editor for simple things not because it was flashy or ideological, but because it reduced friction. It respected my time.</p>
+<p>That’s not trivial. That’s <em>rare</em>.</p>
+<p>Microsoft didn’t get there by accident. They came a long way from the antitrust era. They rebuilt trust. They open-sourced VS Code. They invested heavily in extensions. They allowed competitors to exist <em>inside</em> their platform.</p>
+<p>They did what a lot of us asked them to do.</p>
+<hr>
+<h2 id="forking-isnt-evil--but-it-is-easy">Forking isn’t evil — but it is easy<a hidden class="anchor" aria-hidden="true" href="#forking-isnt-evil--but-it-is-easy">#</a></h2>
+<p>Here’s the hard truth:</p>
+<p>It’s a lot easier to take the ball and go home.</p>
+<p>Forking is decisive.<br>
+Parallel projects feel empowering.<br>
+You move fast.<br>
+You don’t have to negotiate.<br>
+You don’t have to compromise.</p>
+<p>Working within a shared system is slower, messier, and often frustrating. But when the system is open, responsive, and healthy, <strong>working within it is the right thing to do</strong>.</p>
+<p>Forking should be the last step — not the first.</p>
+<hr>
+<h2 id="and-yes--this-is-all-about-ai">And yes — this is all about AI<a hidden class="anchor" aria-hidden="true" href="#and-yes--this-is-all-about-ai">#</a></h2>
+<p>Let’s be honest about the backdrop.</p>
+<p>A huge amount of this renewed forking energy exists <strong>in the name of AI</strong>.</p>
+<p>AI-assisted coding changes the economics:</p>
+<ul>
+<li>tighter editor integration matters more</li>
+<li>defaults matter more</li>
+<li>UX matters more</li>
+<li>control over workflows matters more</li>
+<li>shipping fast matters more</li>
+</ul>
+<p>AI isn’t just another feature — it wants to sit <em>at the center</em> of the editor experience. And once something wants to live at the center, the temptation to own the whole stack becomes very strong.</p>
+<p>This isn’t a neutral evolution of tooling — it’s a <strong>land grab driven by AI integration</strong>.</p>
+<hr>
+<h2 id="and-notice-the-timing">And notice the timing<a hidden class="anchor" aria-hidden="true" href="#and-notice-the-timing">#</a></h2>
+<p>For <strong>years</strong>, nobody felt the need to fork VS Code.</p>
+<p>Not when it was growing fast.<br>
+Not when the extension ecosystem exploded.<br>
+Not when it became the de-facto editor across platforms.</p>
+<p>For a long time, the model worked.</p>
+<p>Then suddenly — now — forks are everywhere.</p>
+<p>What changed wasn’t VS Code’s quality, openness, or extensibility. What changed was the <strong>stakes</strong>. AI moved from “nice add-on” to “core product,” and the editor became the control surface.</p>
+<p>If this platform was “good enough” for years but suddenly isn’t, maybe the platform isn’t the problem.</p>
+<hr>
+<h2 id="each-fork-makes-progress--but-not-together">Each fork makes progress — but not together<a hidden class="anchor" aria-hidden="true" href="#each-fork-makes-progress--but-not-together">#</a></h2>
+<p>To be very clear: the developers working on these new editor forks are doing <strong>great work</strong>.</p>
+<p>Real problems are being solved. Interesting ideas are being explored. These aren’t hobby projects — in many cases they’re talented engineers working full-time, with clear assignments and real resources.</p>
+<p>The issue isn’t effort or intent.</p>
+<p>The issue is <strong>where that progress lands</strong>.</p>
+<p>Each fork will add real improvements — but those improvements live in parallel silos. They benefit local users, but they don’t strengthen the shared foundation.</p>
+<p>Innovation continues.<br>
+But compounding stops.</p>
+<hr>
+<h2 id="forks-dont-just-diverge--they-fall-behind">Forks don’t just diverge — they fall behind<a hidden class="anchor" aria-hidden="true" href="#forks-dont-just-diverge--they-fall-behind">#</a></h2>
+<p>VS Code doesn’t stand still.</p>
+<p>It keeps improving:</p>
+<ul>
+<li>performance</li>
+<li>accessibility</li>
+<li>polish</li>
+<li>extension APIs</li>
+<li>boring but critical maintenance</li>
+</ul>
+<p>Every fork inherits a permanent obligation to keep up.</p>
+<p>Forks often exist to move faster — and they often do, at first. But long-term, the cost of staying aligned with a fast-moving upstream cancels out much of that speed.</p>
+<p>That’s not a moral failing.<br>
+It’s a systems reality.</p>
+<hr>
+<h2 id="and-to-be-fair-the-extension-apis-already-go-a-long-way">And to be fair: the extension APIs already go a long way<a hidden class="anchor" aria-hidden="true" href="#and-to-be-fair-the-extension-apis-already-go-a-long-way">#</a></h2>
+<p>VS Code’s extension APIs are <strong>extremely capable</strong>.</p>
+<p>You can do a <em>heckuva lot</em> without touching the editor core:</p>
+<ul>
+<li>deep language integrations</li>
+<li>code actions and refactors</li>
+<li>inline UI and decorations</li>
+<li>command surfaces</li>
+<li>background services</li>
+<li>AI-driven workflows layered on top</li>
+</ul>
+<p>Plenty of sophisticated tools already exist entirely as extensions.</p>
+<p>If proposals were made upstream and rejected, fine — that’s how forks are born.<br>
+If no serious attempt was made to work within the existing system, let’s just say the argument gets thinner.</p>
+<hr>
+<h2 id="no-matter-what-forks-exist-the-marketplace-is-still-the-center">No matter what forks exist, the marketplace is still the center<a hidden class="anchor" aria-hidden="true" href="#no-matter-what-forks-exist-the-marketplace-is-still-the-center">#</a></h2>
+<p>No matter how many forks appear, one thing hasn’t changed:</p>
+<p><strong>The VS Code Marketplace is where the extensions are.</strong></p>
+<p>That’s where the ecosystem lives.<br>
+That’s where tools are published.<br>
+That’s where documentation points.</p>
+<p>Forks may ship their own UX and defaults, but they still orbit the same extension universe.</p>
+<p>The center of gravity hasn’t moved.</p>
+<hr>
+<h2 id="the-marketplace-reality-like-it-or-not">The marketplace reality (like it or not)<a hidden class="anchor" aria-hidden="true" href="#the-marketplace-reality-like-it-or-not">#</a></h2>
+<p>You can complain about the setup, but the reality is simple:</p>
+<p>Microsoft owns the marketplace.<br>
+They operate it.<br>
+They secure it.</p>
+<p>They also publish some of the <strong>most important extensions</strong> themselves — including first-class language tooling that is <em>not</em> available to every fork.</p>
+<p>Forks depend on the marketplace.<br>
+The marketplace does <em>not</em> depend on forks.</p>
+<p>That asymmetry matters.</p>
+<hr>
+<h2 id="if-history-is-a-guide-xemacs">If history is a guide: XEmacs<a hidden class="anchor" aria-hidden="true" href="#if-history-is-a-guide-xemacs">#</a></h2>
+<p>XEmacs started as a pragmatic fork. For a long time, it genuinely <strong>looked better</strong> — especially in X/Windows and early Windows environments.</p>
+<p>But Emacs didn’t stand still.</p>
+<p>Over time, GNU Emacs caught up. Once that gap closed, the main reason to choose XEmacs quietly disappeared.</p>
+<p><em>Eagle-eyed readers may notice that the version numbers imply a couple of patch releases between 2009 and 2026. So yes — there was some activity in that gap. Call them the “mystery releases.” Whatever work happened there was clearly caretaker-level maintenance, not seventeen years of lockstep evolution.</em></p>
+<p>XEmacs didn’t fail dramatically.</p>
+<p>It just… faded.</p>
+<p>Most forks don’t die.<br>
+They stop mattering.</p>
+<hr>
+<h2 id="were-watching-it-happen-with-vim-too">We’re watching it happen with Vim too<a hidden class="anchor" aria-hidden="true" href="#were-watching-it-happen-with-vim-too">#</a></h2>
+<p>You can see a quieter version of this today in the Vim ecosystem.</p>
+<p>Vim and Neovim coexist. Both are active. Both are “successful.” And yet the community is clearly split.</p>
+<p>Plugins choose sides.<br>
+Tutorials assume features.<br>
+Compatibility becomes conditional.</p>
+<p>Nobody did anything wrong.</p>
+<p>But compounding slowed.</p>
+<hr>
+<h2 id="forks-are-sometimes-necessary--but-not-by-default">Forks are sometimes necessary — but not by default<a hidden class="anchor" aria-hidden="true" href="#forks-are-sometimes-necessary--but-not-by-default">#</a></h2>
+<p>To be clear, none of this is an argument against the right to fork.</p>
+<p>Forking is legal, ethical, and sometimes absolutely necessary — especially when a project is abandoned, closed off, or unwilling to evolve.</p>
+<p>But when a project is open, healthy, and actively improving, the harder and more responsible choice is often to stay inside the system and do the unglamorous work of making it better for everyone.</p>
+<hr>
+<h2 id="forking-is-a-long-term-commitment">Forking is a long-term commitment<a hidden class="anchor" aria-hidden="true" href="#forking-is-a-long-term-commitment">#</a></h2>
+<p>This is really what all of this comes down to.</p>
+<p>Forking is easy to cheer for in the moment. It feels decisive. Empowering. There’s a lot of <em>rah rah rah</em> energy around it — especially when shiny new tech is involved.</p>
+<p>But a fork isn’t a victory lap. It’s a <strong>commitment</strong>.</p>
+<p>Once you fork, you don’t just own your changes — you own <em>every upstream change you don’t take</em>. Forever. Rebases. Compatibility. Security fixes. Ecosystem drift. The unglamorous work that continues long after the excitement wears off.</p>
+<p>It’s a bit like getting a dog.</p>
+<p>The first week is fun. Everyone’s excited. You post pictures. You talk about how great it’s going to be.</p>
+<p>Then come the early mornings. The vet bills. The long-term responsibility. The realization that this isn’t a phase — it’s a relationship.</p>
+<p>Forks are the same way.</p>
+<p>Sometimes you absolutely need one. Sometimes it’s the right call. But going all-in on a fork should come <em>after</em> a long pause, not before it.</p>
+<p>Because once you do, you’re in it for the long haul — whether the crowd is cheering or not.</p>
+<hr>
+<h2 id="so-what-do-we-got-here">So… what do we got here?<a hidden class="anchor" aria-hidden="true" href="#so-what-do-we-got-here">#</a></h2>
+<p>We’ve got a good editor.<br>
+We’ve got a healthy platform.<br>
+We’ve got talented people doing real work.</p>
+<p>And we’re standing at the moment where we decide whether to <strong>build on that win</strong> — or slowly fracture it in the name of speed and AI urgency.</p>
+<p>No villains.<br>
+No conspiracies.</p>
+<p>Just a tired question from someone who’s been here before:</p>
+<p><strong>Are we really doing this again?</strong></p>
+<p><em>This post happens to use VS Code as its lens, but the warning applies to any fork of a healthy, active project.</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/brother-hl-2230-long-term-review/">
+    <span class="title">Next »</span>
+    <br>
+    <span>The $51 Printer That Outlived Everything: A 2025 Look at the Brother HL-2230</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">John&#39;s Music &amp; Tech</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

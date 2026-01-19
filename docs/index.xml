@@ -6,8 +6,17 @@
     <description>Recent content on John&#39;s Music &amp; Tech</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 10:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are We Really Forking Visual Studio Code Again?</title>
+      <link>https://johnsmusicandtech.com/posts/fork-fatigue-vscode-and-lessons-we-never-seem-to-learn/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/posts/fork-fatigue-vscode-and-lessons-we-never-seem-to-learn/</guid>
+      <description>&lt;p&gt;I’ve been a developer long enough to remember when &lt;em&gt;this was the year of the Linux desktop&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We heard it every year. The technology was there. The talent was there. The passion was definitely there. What never quite materialized was coordination — agreement on where collaboration should stop and competition should begin.&lt;/p&gt;
+&lt;p&gt;So when I look at what’s happening today around editors and AI tooling, I don’t feel outrage. I don’t feel betrayed. I mostly feel a familiar, slightly exhausted thought forming:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The $51 Printer That Outlived Everything: A 2025 Look at the Brother HL-2230</title>
       <link>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</link>

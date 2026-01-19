@@ -54,7 +54,7 @@ It’s boring in the right ways.
 It’s extensible.  
 It mostly gets out of your way.
 
-I never thought I’d move away from Vim — and yet here we are. VS Code became my go-to editor for simple things not because it was flashy or ideological, but because it reduced friction. It respected my time That’s not trivial. That’s *rare*.
+I never thought I’d move away from Vim — and yet here we are. VS Code became my go-to editor for simple things not because it was flashy or ideological, but because it reduced friction. It respected my time. That’s not trivial. That’s *rare*.
 
 Microsoft didn’t get there by accident. They came a long way from the antitrust era. They rebuilt trust. They open-sourced VS Code. They invested heavily in extensions. They allowed competitors to exist *inside* their platform. They did what a lot of us asked them to do.
 

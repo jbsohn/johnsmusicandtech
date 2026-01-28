@@ -1,7 +1,7 @@
 ---
 title: "Tom Verlaine — Missing Him Just the Same"
 date: 2026-01-28T09:00:00-05:00
-draft: false
+draft: true
 slug: tom-verlaine-missing-him-just-the-same
 tags: ["music", "Tom Verlaine", "Television", "post-punk", "guitar", "CBGB", "alternative rock", "reflection"]
 

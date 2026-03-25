@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/hardware/</link>
     <description>Recent content in Hardware on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Nov 2025 10:00:00 -0500</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</link>
       <pubDate>Thu, 13 Nov 2025 10:00:00 -0500</pubDate>
       <guid>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</guid>
-      <description>A 12-year retrospective on a $51 Brother HL-2230 laser printer that quietly outlived computers, operating systems, and entire life chapters — and still just works in 2025.</description>
+      <description>In 2013 I bought a $51 Brother HL-2230 laser printer. Twelve years, two marriages, multiple operating systems, and several computing eras later, it still just works. This is the long-term review it deserves.</description>
     </item>
   </channel>
 </rss>

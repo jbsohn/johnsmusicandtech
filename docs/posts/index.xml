@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/posts/</link>
     <description>Recent content in Posts on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jan 2026 09:00:00 -0500</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,39 +13,35 @@
       <link>https://johnsmusicandtech.com/posts/tom-verlaine-missing-him-just-the-same/</link>
       <pubDate>Wed, 28 Jan 2026 09:00:00 -0500</pubDate>
       <guid>https://johnsmusicandtech.com/posts/tom-verlaine-missing-him-just-the-same/</guid>
-      <description>&lt;p&gt;Tom Verlaine was the guitarist, singer, and primary songwriter for Television, a late-’70s New York band whose 1977 album &lt;em&gt;Marquee Moon&lt;/em&gt; became one of the most influential guitar records of the post-punk era. Television never chased mainstream success, but their interlocking guitars, restraint, and sense of space went on to shape decades of alternative and indie music. Verlaine died in January 2023.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Tom Verlaine&#34; loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/images/tom-verlaine.jpg&#34;&gt;
-&lt;em&gt;Tom Verlaine with Television at El Club in Detroit, MI, on May 4, 2019. I only saw him once, but I’m grateful I had the opportunity.&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Tom Verlaine was the guitarist, singer, and primary songwriter for Television, a late-’70s New York band whose 1977 album &lt;em&gt;Marquee Moon&lt;/em&gt; became one of the most influential guitar records of the post-punk era. Television never chased mainstream success, but their interlocking guitars, restraint, and sense of space went on to shape decades of alternative and indie music. Verlaine died in January 2023.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/images/tom-verlaine.jpg&#34; alt=&#34;Tom Verlaine&#34;&gt;&#xA;&lt;em&gt;Tom Verlaine with Television at El Club in Detroit, MI, on May 4, 2019. I only saw him once, but I’m grateful I had the opportunity.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are We Really Forking Visual Studio Code Again?</title>
       <link>https://johnsmusicandtech.com/posts/fork-fatigue-vscode-and-lessons-we-never-seem-to-learn/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/fork-fatigue-vscode-and-lessons-we-never-seem-to-learn/</guid>
-      <description>&lt;p&gt;I’ve been a developer long enough to remember when &lt;em&gt;this was the year of the Linux desktop&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;We heard it every year. The technology was there. The talent was there. The passion was definitely there. What never quite materialized was coordination — agreement on where collaboration should stop and competition should begin.&lt;/p&gt;
-&lt;p&gt;So when I look at what’s happening today around editors and AI tooling, I don’t feel outrage. I don’t feel betrayed. I mostly feel a familiar, slightly exhausted thought forming:&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’ve been a developer long enough to remember when &lt;em&gt;this was the year of the Linux desktop&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We heard it every year. The technology was there. The talent was there. The passion was definitely there. What never quite materialized was coordination — agreement on where collaboration should stop and competition should begin.&lt;/p&gt;&#xA;&lt;p&gt;So when I look at what’s happening today around editors and AI tooling, I don’t feel outrage. I don’t feel betrayed. I mostly feel a familiar, slightly exhausted thought forming:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The $51 Printer That Outlived Everything: A 2025 Look at the Brother HL-2230</title>
       <link>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</link>
       <pubDate>Thu, 13 Nov 2025 10:00:00 -0500</pubDate>
       <guid>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</guid>
-      <description>A 12-year retrospective on a $51 Brother HL-2230 laser printer that quietly outlived computers, operating systems, and entire life chapters — and still just works in 2025.</description>
+      <description>In 2013 I bought a $51 Brother HL-2230 laser printer. Twelve years, two marriages, multiple operating systems, and several computing eras later, it still just works. This is the long-term review it deserves.</description>
     </item>
     <item>
       <title>🎰 The New App Store Wild West: How Scam “Cash Games” Are Slipping Through Apple’s Review</title>
       <link>https://johnsmusicandtech.com/posts/app-store-wild-west/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/app-store-wild-west/</guid>
-      <description>Apple’s once-trusted App Store has become fertile ground for fake ‘cash games’ that promise instant PayPal payouts. Here’s how they got in, why people believe them, and what that says about Apple’s changing priorities.</description>
+      <description>&lt;p&gt;&lt;em&gt;I didn’t expect to make sixty-six bucks in a restaurant — I just wanted to know how Apple lets these “win cash” apps exist. What I found says a lot about how the App Store lost its grip on trust.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This piece combines my personal experience as a developer with publicly verifiable facts. Some sections include opinion and interpretation; those are presented as commentary, not as claims of fact.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quiet Genius: What GFI Understood About Modern Steel Design</title>
       <link>https://johnsmusicandtech.com/posts/quiet-genius-gfi/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/quiet-genius-gfi/</guid>
-      <description>A reflection on Gene Fields, his enduring influence on GFI, and how smart engineering outlasts its maker.</description>
+      <description>&lt;p&gt;There’s a quiet kind of genius behind GFI steel guitars — the kind that doesn’t get loud applause on forums, but earns respect from anyone who’s ever torn one apart and realized how smartly it’s built.&lt;/p&gt;&#xA;&lt;p&gt;In a world where complexity often gets mistaken for craftsmanship, &lt;strong&gt;GFI reminded us that simple can be smart.&lt;/strong&gt; Their guitars aren’t minimalistic for the sake of it — they’re simple in a &lt;em&gt;good&lt;/em&gt; way. Every part has a purpose. Every mechanism is there because it &lt;em&gt;needs&lt;/em&gt; to be. There’s no wasted motion, no excess flash, no unnecessary friction — mechanically or otherwise.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When the Lights Went Out</title>
@@ -66,65 +62,56 @@
       <link>https://johnsmusicandtech.com/posts/space-invaders-snare/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/space-invaders-snare/</guid>
-      <description>When Alabama tried to go digital and accidentally went arcade instead.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/images/future-of-country-drums.png&#34; alt=&#34;The Future of Country Drums Has Arrived!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every once in a while, a song pops up on a playlist that stops you in your tracks — not because it’s great, not because it’s bad, but because something in it is just so &lt;em&gt;weird&lt;/em&gt; you can’t un-hear it.&lt;/p&gt;&#xA;&lt;p&gt;In this case, I wasn’t digging through Alabama’s catalog on purpose. &lt;em&gt;The Closer You Get&lt;/em&gt; (1983) just surfaced on an &lt;strong&gt;Apple Radio playlist&lt;/strong&gt; one day. Left to my own devices, I never would have clicked play. But there it was — and suddenly I was laughing out loud at the snare drum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Two Years With the Chevy Bolt: The Best Car I’ve Ever Owned</title>
       <link>https://johnsmusicandtech.com/posts/chevy-bolt-2-years/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/chevy-bolt-2-years/</guid>
-      <description>&lt;h2 id=&#34;two-years-with-the-chevy-bolt-the-best-car-ive-ever-owned&#34;&gt;Two Years With the Chevy Bolt: The Best Car I’ve Ever Owned&lt;/h2&gt;
-&lt;p&gt;I’ll say it upfront: the Chevy Bolt is the best car I’ve ever owned.&lt;/p&gt;
-&lt;p&gt;When I decided to go electric, I already knew the Bolt was nearing the end of its run. The 2023 model would be the last—and finding one wasn’t easy. Most dealers were out of stock, and the few that did get them sold them almost immediately.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;two-years-with-the-chevy-bolt-the-best-car-ive-ever-owned&#34;&gt;Two Years With the Chevy Bolt: The Best Car I’ve Ever Owned&lt;/h2&gt;&#xA;&lt;p&gt;I’ll say it upfront: the Chevy Bolt is the best car I’ve ever owned.&lt;/p&gt;&#xA;&lt;p&gt;When I decided to go electric, I already knew the Bolt was nearing the end of its run. The 2023 model would be the last—and finding one wasn’t easy. Most dealers were out of stock, and the few that did get them sold them almost immediately.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🕹️ 40 Years With the Atari ST: From Zapenu to GitHub</title>
       <link>https://johnsmusicandtech.com/posts/atari-st-40-years/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/atari-st-40-years/</guid>
-      <description>Reflecting on the Atari ST’s 40th anniversary, the machine that launched my programming journey — from cover disks to GitHub.</description>
+      <description>&lt;h1 id=&#34;-40-years-with-the-atari-st-from-zapenu-to-github&#34;&gt;🕹️ 40 Years With the Atari ST: From Zapenu to GitHub&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/images/atari-1040STf.jpg&#34; alt=&#34;Atari 1040STf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Image by &lt;a href=&#34;https://commons.wikimedia.org/wiki/User:Bilby&#34;&gt;Bilby&lt;/a&gt;, licensed under &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC BY-SA 3.0&lt;/a&gt; via &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Atari_1040STf.jpg&#34;&gt;Wikimedia Commons&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I recently read that the Atari ST turned 40 this year. I remember buying mine at Rosewood Music in Findlay, Ohio, in 1989, using my high school graduation money. I had wanted one ever since 1985, when I first saw it on display at Maumee Valley Computer Center in Defiance, Ohio. That was the year it came out, and it felt like the future. So when I finally got my hands on it — a 16-bit computer with a mouse, a GUI, and built-in MIDI ports — I knew exactly where I was headed. For me, the future was the Atari ST.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🎸 What I Learned (and Didn’t) from the Founding Father Method™</title>
       <link>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</guid>
-      <description>An honest, good-faith reflection on a high-profile steel guitar course (yes, that one). What worked, what didn’t, and what I wish I knew before signing up. My Paul Westerberg “Let It Be” moment.</description>
+      <description>&lt;h1 id=&#34;-what-i-learned-and-didnt-from-the-founding-father-method&#34;&gt;🎸 What I Learned (and Didn’t) from the &amp;ldquo;Founding Father Method™&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;A personal reflection on pedal steel’s most revered (and carefully protected) learning program&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt;&lt;br&gt;&#xA;This post reflects my personal, good-faith experience as a paying customer of a widely known steel guitar course. It is not intended as defamation, harassment, or commercial harm—only an honest review of a product that didn’t work for me. If it worked for you, that’s great. This is simply my take.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What AI Is Doing to Software Development (and What It Can’t Do Yet)</title>
       <link>https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/what-ai-is-doing-to-software-development/</guid>
-      <description>Reflections on how AI tools like ChatGPT are reshaping software development—from the bookshelf era to side-project breakthroughs.</description>
+      <description>&lt;h2 id=&#34;what-ai-is-doing-to-software-development-and-what-it-cant-do-yet&#34;&gt;What AI Is Doing to Software Development (and What It Can’t Do Yet)&lt;/h2&gt;&#xA;&lt;p&gt;I started writing software just before the Internet changed everything. Back then, if you wanted to know how a Windows API worked, you didn’t Google it—you went to the bookshelf. Mine was packed with Microsoft documentation: thousands of pages in thick printed volumes. &lt;em&gt;Win32 Programmer’s Reference&lt;/em&gt;, &lt;em&gt;MFC Library&lt;/em&gt;, &lt;em&gt;SDK Tools&lt;/em&gt;—it took up most of a shelf and all of your patience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What I’ve Been Doing and Where I Go From Here</title>
       <link>https://johnsmusicandtech.com/posts/what-ive-been-doing/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/what-ive-been-doing/</guid>
-      <description>&lt;p&gt;For the past few years, I’ve been balancing a range of creative and technical interests — pedal steel guitar, app development, retro computing, and more — all while working full-time at Sweetwater in Fort Wayne, IN. I’ve been part of both the mobile and desktop teams there for over five years, helping build the tools customers use every day.&lt;/p&gt;
-&lt;p&gt;I’ve also moved the blog to a new domain: &lt;strong&gt;johnsmusicandtech.com&lt;/strong&gt;. The name reflects what this space is really about — the intersection of sound and software, strings and code, music and machines. It&amp;rsquo;s still me writing, just under a name that better fits the shape of things going forward.&lt;/p&gt;</description>
+      <description>&lt;p&gt;For the past few years, I’ve been balancing a range of creative and technical interests — pedal steel guitar, app development, retro computing, and more — all while working full-time at Sweetwater in Fort Wayne, IN. I’ve been part of both the mobile and desktop teams there for over five years, helping build the tools customers use every day.&lt;/p&gt;&#xA;&lt;p&gt;I’ve also moved the blog to a new domain: &lt;strong&gt;johnsmusicandtech.com&lt;/strong&gt;. The name reflects what this space is really about — the intersection of sound and software, strings and code, music and machines. It&amp;rsquo;s still me writing, just under a name that better fits the shape of things going forward.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GFI</title>
       <link>https://johnsmusicandtech.com/2023/03/10/gfi/</link>
       <pubDate>Fri, 10 Mar 2023 20:04:24 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/2023/03/10/gfi/</guid>
-      <description>&lt;p&gt;Two historic guitars are on display in the GFI room.&lt;/p&gt;
-&lt;p&gt;This belonged to Ralph Mooney:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6196.jpeg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6195.jpeg?w=1024&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This was a Gene Fields guitar:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6198.jpeg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6197.jpeg?w=1024&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Gene was a great innovator. It was interesting to see his work in person.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Two historic guitars are on display in the GFI room.&lt;/p&gt;&#xA;&lt;p&gt;This belonged to Ralph Mooney:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6196.jpeg?w=1024&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6195.jpeg?w=1024&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This was a Gene Fields guitar:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6198.jpeg?w=1024&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6197.jpeg?w=1024&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Gene was a great innovator. It was interesting to see his work in person.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Texas Steel Guitar Jamboree</title>
       <link>https://johnsmusicandtech.com/2023/03/09/texas-steel-guitar-jamboree/</link>
       <pubDate>Thu, 09 Mar 2023 18:53:44 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/2023/03/09/texas-steel-guitar-jamboree/</guid>
-      <description>&lt;p&gt;I am in Dallas for my first Jamboree! I am halfway through Doug Jerningan&amp;rsquo;s seminar. There is a lot to take in, but it has been very informative. Doug is a great player and teacher. He has prepared an extensive course for today&amp;rsquo;s seminar.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6188-1.jpg?w=768&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6189.jpg?w=1024&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6191.jpg?w=768&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I am in Dallas for my first Jamboree! I am halfway through Doug Jerningan&amp;rsquo;s seminar. There is a lot to take in, but it has been very informative. Doug is a great player and teacher. He has prepared an extensive course for today&amp;rsquo;s seminar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6188-1.jpg?w=768&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6189.jpg?w=1024&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;https://johnsmusicandtech.com/wp-content/uploads/2023/03/img_6191.jpg?w=768&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

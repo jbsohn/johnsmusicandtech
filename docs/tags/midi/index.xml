@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MIDI on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/midi/</link>
     <description>Recent content in MIDI on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/midi/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://johnsmusicandtech.com/posts/atari-st-40-years/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/atari-st-40-years/</guid>
-      <description>Reflecting on the Atari ST’s 40th anniversary, the machine that launched my programming journey — from cover disks to GitHub.</description>
+      <description>&lt;h1 id=&#34;-40-years-with-the-atari-st-from-zapenu-to-github&#34;&gt;🕹️ 40 Years With the Atari ST: From Zapenu to GitHub&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/images/atari-1040STf.jpg&#34; alt=&#34;Atari 1040STf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Image by &lt;a href=&#34;https://commons.wikimedia.org/wiki/User:Bilby&#34;&gt;Bilby&lt;/a&gt;, licensed under &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;CC BY-SA 3.0&lt;/a&gt; via &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Atari_1040STf.jpg&#34;&gt;Wikimedia Commons&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I recently read that the Atari ST turned 40 this year. I remember buying mine at Rosewood Music in Findlay, Ohio, in 1989, using my high school graduation money. I had wanted one ever since 1985, when I first saw it on display at Maumee Valley Computer Center in Defiance, Ohio. That was the year it came out, and it felt like the future. So when I finally got my hands on it — a 16-bit computer with a mouse, a GUI, and built-in MIDI ports — I knew exactly where I was headed. For me, the future was the Atari ST.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

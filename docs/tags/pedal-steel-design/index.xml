@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pedal Steel Design on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/pedal-steel-design/</link>
     <description>Recent content in Pedal Steel Design on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/pedal-steel-design/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://johnsmusicandtech.com/posts/quiet-genius-gfi/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/quiet-genius-gfi/</guid>
-      <description>A reflection on Gene Fields, his enduring influence on GFI, and how smart engineering outlasts its maker.</description>
+      <description>&lt;p&gt;There’s a quiet kind of genius behind GFI steel guitars — the kind that doesn’t get loud applause on forums, but earns respect from anyone who’s ever torn one apart and realized how smartly it’s built.&lt;/p&gt;&#xA;&lt;p&gt;In a world where complexity often gets mistaken for craftsmanship, &lt;strong&gt;GFI reminded us that simple can be smart.&lt;/strong&gt; Their guitars aren’t minimalistic for the sake of it — they’re simple in a &lt;em&gt;good&lt;/em&gt; way. Every part has a purpose. Every mechanism is there because it &lt;em&gt;needs&lt;/em&gt; to be. There’s no wasted motion, no excess flash, no unnecessary friction — mechanically or otherwise.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

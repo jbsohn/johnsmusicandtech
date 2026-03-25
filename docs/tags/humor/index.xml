@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Humor on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/humor/</link>
     <description>Recent content in Humor on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/humor/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://johnsmusicandtech.com/posts/space-invaders-snare/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/space-invaders-snare/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://johnsmusicandtech.com/images/future-of-country-drums.png&#34; alt=&#34;The Future of Country Drums Has Arrived!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every once in a while, a song pops up on a playlist that stops you in your tracks — not because it’s great, not because it’s bad, but because something in it is just so &lt;em&gt;weird&lt;/em&gt; you can’t un-hear it.&lt;/p&gt;&#xA;&lt;p&gt;In this case, I wasn’t digging through Alabama’s catalog on purpose. &lt;em&gt;The Closer You Get&lt;/em&gt; (1983) just surfaced on an &lt;strong&gt;Apple Radio playlist&lt;/strong&gt; one day. Left to my own devices, I never would have clicked play. But there it was — and suddenly I was laughing out loud at the snare drum.&lt;/p&gt;</description>
+      <description>When Alabama tried to go digital and accidentally went arcade instead.</description>
     </item>
   </channel>
 </rss>

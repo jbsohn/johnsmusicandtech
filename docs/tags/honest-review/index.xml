@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Honest Review on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/honest-review/</link>
     <description>Recent content in Honest Review on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/honest-review/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/what-i-learned-from-founding-father-method.md/</guid>
-      <description>&lt;h1 id=&#34;-what-i-learned-and-didnt-from-the-founding-father-method&#34;&gt;🎸 What I Learned (and Didn’t) from the &amp;ldquo;Founding Father Method™&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;A personal reflection on pedal steel’s most revered (and carefully protected) learning program&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt;&lt;br&gt;&#xA;This post reflects my personal, good-faith experience as a paying customer of a widely known steel guitar course. It is not intended as defamation, harassment, or commercial harm—only an honest review of a product that didn’t work for me. If it worked for you, that’s great. This is simply my take.&lt;/p&gt;</description>
+      <description>An honest, good-faith reflection on a high-profile steel guitar course (yes, that one). What worked, what didn’t, and what I wish I knew before signing up. My Paul Westerberg “Let It Be” moment.</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 ---
 title: "The Falcon Rises in Indy: Re-Falcon 030 and the Quest for Digital Immortality"
 date: 2026-03-24
-draft: true
+draft: false
 description: "A last-minute trip to Indy Classic to see the Re-Falcon 030 project, reflecting on Atari's crossroads, the Jaguar gamble, and the mission to save the 'Big 3' custom chips."
 tags: ["Atari Falcon", "Re-Falcon", "Digital Archaeology", "Indy Classic", "Motorola 56001", "Preservation", "Sweetwater"]
 categories: ["Retro Tech", "Personal History", "Software Development"]
@@ -21,7 +21,7 @@ For the [two or three](https://maureen.blog/) of you who follow this blog, you k
 ## From the ST Trenches to the Falcon’s Flight
 For those who remember my [Atari ST at 40](https://johnsmusicandtech.com/posts/atari-st-40-years/) post, the ST wasn't just a hobby for me; it was my development environment. 
 
-In the early 90s, I was a licensed Atari ST developer. I spent my time developing apps for GEM in K&R C (with a little 68000 assembly) on the Atari ST. When the Falcon 030 arrived in '92, it felt like the promised land. With a 32-bit internal bus and that legendary **Motorola 56001 DSP**, it was the "multimedia" powerhouse we had been waiting for.
+In the early 90s, I was a licensed Atari ST developer. I spent my time developing apps for GEM in K&R C (with a little 68000 assembly) on the Atari ST. When the [Falcon 030](https://en.wikipedia.org/wiki/Atari_Falcon) arrived in '92, it felt like the promised land. With a 32-bit internal bus and that legendary **Motorola 56001 DSP**, it was the "multimedia" powerhouse we had been waiting for.
 
 ### The Great PC Pivot (and the "Bland" Years)
 Unfortunately, the timing was bittersweet. I was in my senior year of college when **Windows 3.1** hit the scene, and the writing was on the wall. To prepare for a career in Windows development, I made the pragmatic choice: I got a **386DX/40** instead of a Falcon. 
@@ -45,6 +45,18 @@ Meeting Steve Suavek and seeing the **Re-Falcon 030** motherboard in the flesh b
 
 The Re-Falcon isn't a modern emulation; it is a meticulous, 1:1 motherboard replacement. It provides a brand-new, reliable home for the original proprietary Atari custom chips that are so often stranded on dying, corroded original boards.
 
+![The original Atari Falcon 030 case with custom Re-Falcon branding](/images/re-falcon-indy-00001.jpg)
+*The original Atari Falcon 030 case, looking pristine with custom Re-Falcon branding—the ultimate "stealth" upgrade.*
+
+![Re-Falcon 030 motherboard inside a clear plexiglass case](/images/re-falcon-indy-00002.jpg)
+*A 1992 dream made manifest: The Re-Falcon 030 in a clear plexiglass case, showing off the internal engineering.*
+
+![Atari TOS desktop running live on the Re-Falcon system](/images/re-falcon-indy-00005.jpg)
+*The legendary Atari "TOS" desktop running live.*
+
+## The Man Behind the Mission
+Meeting Steve was a highlight of the trip. Standing there with the bare Re-Falcon 030 PCB, he had a smile that only a developer who has successfully navigated 4,440 pads and 2,420 vias can truly wear. You can see it in his face—this is a man proud of his work, and rightfully so! It’s the look of someone who didn't just talk about "saving the platform" but actually sat down and did the grueling work to make it happen.
+
 ### The Engineering Feat
 According to the technical fact sheet Steve had on display, the sheer complexity of this undertaking is staggering:
 * **825 Total Components** (345 on top, 480 on bottom)
@@ -53,6 +65,15 @@ According to the technical fact sheet Steve had on display, the sheer complexity
 * **6-to-8 Layer PCB Stackup**
 
 Seeing it in a clear case running the classic desktop was a 1992 dream finally perfected for today.
+
+![Steve Suavek holding the bare Re-Falcon purple PCB](/images/re-falcon-indy-00003.jpg)
+*Steve Suavek displaying the bare Re-Falcon purple PCB. You can really see the complexity of those 64,910 individual tracks here.*
+
+![Close up of the Re-Falcon 030 motherboard components](/images/re-falcon-indy-00004.jpg)
+*It’s staggering to think this board holds 825 components in a meticulous 1-to-1 replacement layout.*
+
+![Official technical fact sheet for the Re-Falcon project](/images/re-falcon-indy-00006.jpg)
+*The "Tale of the Tape": The official technical fact sheet from the booth, detailing the 6-to-8 layer PCB stackup.*
 
 ## The Final Frontier: The Decap Initiative
 While the Re-Falcon provides the physical sanctuary, we are still tethered to a finite supply of "donor" chips. To make the Falcon truly immortal, we need FPGA recreations of the "Big 3" custom ICs: the **COMBEL**, **VIDEL**, and the **SDMA**.

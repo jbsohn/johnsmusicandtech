@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coding on John&#39;s Music &amp; Tech</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on John&#39;s Music &amp; Tech</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Jan 2026 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use AI Without Skipping the Learning: An Atari 7800 Sound Project</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>An Atari sound hack becomes the perfect test case for how AI can guide real-world learning — not by replacing thinking, but by helping you find where to begin.</description>
+    </item>
+  </channel>
+</rss>

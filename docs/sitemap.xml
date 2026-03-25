@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/tags/atari-falcon/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/digital-archaeology/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/indy-classic/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/motorola-56001/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/personal-history/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/preservation/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/re-falcon/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/re-falcon-030-indy-classic/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/retro-tech/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/software-development/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/sweetwater/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/tags/alternative-rock/</loc>
     <lastmod>2026-01-28T09:00:00-05:00</lastmod>
   </url><url>
@@ -11,22 +56,13 @@
     <loc>https://johnsmusicandtech.com/tags/guitar/</loc>
     <lastmod>2026-01-28T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/</loc>
-    <lastmod>2026-01-28T09:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/music/</loc>
     <lastmod>2026-01-28T09:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/post-punk/</loc>
     <lastmod>2026-01-28T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/posts/</loc>
-    <lastmod>2026-01-28T09:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/reflection/</loc>
-    <lastmod>2026-01-28T09:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/</loc>
     <lastmod>2026-01-28T09:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/television/</loc>
@@ -52,9 +88,6 @@
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/vscode/</loc>
     <lastmod>2026-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/categories/</loc>
-    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/hardware/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
@@ -200,13 +233,7 @@
     <loc>https://johnsmusicandtech.com/tags/midi/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/categories/personal-history/</loc>
-    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/retro-computing/</loc>
-    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/categories/retro-tech/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/zapenu/</loc>

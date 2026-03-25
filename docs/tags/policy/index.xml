@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Policy on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/policy/</link>
     <description>Recent content in Policy on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/policy/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://johnsmusicandtech.com/posts/app-store-wild-west/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/posts/app-store-wild-west/</guid>
-      <description>&lt;p&gt;&lt;em&gt;I didn’t expect to make sixty-six bucks in a restaurant — I just wanted to know how Apple lets these “win cash” apps exist. What I found says a lot about how the App Store lost its grip on trust.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This piece combines my personal experience as a developer with publicly verifiable facts. Some sections include opinion and interpretation; those are presented as commentary, not as claims of fact.&lt;/p&gt;</description>
+      <description>Apple’s once-trusted App Store has become fertile ground for fake ‘cash games’ that promise instant PayPal payouts. Here’s how they got in, why people believe them, and what that says about Apple’s changing priorities.</description>
     </item>
   </channel>
 </rss>

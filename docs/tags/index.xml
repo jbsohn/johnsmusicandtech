@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/</link>
     <description>Recent content in Tags on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 09:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atari Falcon</title>
+      <link>https://johnsmusicandtech.com/tags/atari-falcon/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/atari-falcon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Archaeology</title>
+      <link>https://johnsmusicandtech.com/tags/digital-archaeology/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/digital-archaeology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indy Classic</title>
+      <link>https://johnsmusicandtech.com/tags/indy-classic/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/indy-classic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motorola 56001</title>
+      <link>https://johnsmusicandtech.com/tags/motorola-56001/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/motorola-56001/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preservation</title>
+      <link>https://johnsmusicandtech.com/tags/preservation/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/preservation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Re-Falcon</title>
+      <link>https://johnsmusicandtech.com/tags/re-falcon/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/re-falcon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sweetwater</title>
+      <link>https://johnsmusicandtech.com/tags/sweetwater/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/sweetwater/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Alternative Rock</title>
       <link>https://johnsmusicandtech.com/tags/alternative-rock/</link>
@@ -289,7 +338,7 @@
       <description></description>
     </item>
     <item>
-      <title>Pedal-Steel</title>
+      <title>Pedal Steel</title>
       <link>https://johnsmusicandtech.com/tags/pedal-steel/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/tags/pedal-steel/</guid>

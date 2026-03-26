@@ -12,6 +12,8 @@ slug: "re-falcon-030-indy-classic"
 
 # The Falcon Rises in Indy: Re-Falcon 030 and the Quest for Digital Immortality
 
+> **Update (March 25, 2026):** After posting this, I heard from Steve Suavek (the creator of the Re-Falcon). He provided some fascinating technical context regarding the 8-layer PCB design and how it addresses the original Falcon's "clock patch" issues. I’ve updated the Engineering section below with his insights.
+
 I actually sat down at my desk this past weekend with every intention of making progress on my own coding projects. I had my environment ready, but as I was settling in, a stray Facebook notification caught my eye. I don’t check it often, but this one stopped me: the [Re-Falcon](https://re-falcon.com) was on display at the Indy Classic expo.
 
 I did a quick mental map: *Wait, that’s only two hours away?* That was well within range for my Chevy Bolt! Within twenty minutes, I was in the car on my way. My wife tagged along for the ride, and while I’m fairly certain she wasn't quite as invested in 30-year-old motherboard revisions as I was, she could see my excitement. 
@@ -62,9 +64,11 @@ According to the technical fact sheet Steve had on display, the sheer complexity
 * **825 Total Components** (345 on top, 480 on bottom)
 * **4,440 Pads** and **2,420 Vias**
 * **64,910 Individual Tracks**
-* **6-to-8 Layer PCB Stackup**
+* **8 Layer PCB stackup (vs 6-layers in original board)** -- Steve explained the engineering shift to me:
 
-Seeing it in a clear case running the classic desktop was a 1992 dream finally perfected for today.
+> "The original 6-layer PCB design took a shortcut, which resulted in the need for infamous 'clock patches'. [I] added 2 copper layers in order to properly route all bus clocks to ensure well balanced signal path throughout the board."
+
+It costs a LOT more to fix a PCB after it’s made (those messy "bodge" wires we’ve all seen), and Steve’s 8-layer refactor ensures the signal is perfect from the start. Seeing it in a clear case running the classic desktop was a 1992 dream finally perfected for today.
 
 ![Steve Suavek holding the bare Re-Falcon purple PCB](/images/re-falcon-indy-00003.jpg)
 *Steve Suavek displaying the bare Re-Falcon purple PCB. You can really see the complexity of those 64,910 individual tracks here.*
@@ -90,4 +94,4 @@ At the end of the day, we aren't just saving old silicon; we’re saving the wor
 
 Driving home in the Bolt, I kept thinking about that alternate timeline. Until that version of reality catches up with us, I’ll keep supporting the folks doing the hard work of bridging the gap. If you’ve got a few bucks to spare and want to see 1992 live forever, head over to the [Decap Project](https://mikrosk.github.io/decap/) and help them cross the finish line. 
 
-To the two or three of you still reading—thanks for coming along on this two-hour detour to Indy. Now, back to my own code.
+Thanks for coming along on this two-hour detour to Indy. Now, back to my own code.

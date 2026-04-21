@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap | John&#39;s Music &amp; Tech</title>
+<meta name="keywords" content="atari-7800, ai, hardware, retro-computing, engineering, ym2149, 6502">
+<meta name="description" content="How AI acted as a &#39;force multiplier&#39; to bridge the gap between software engineering and retro hardware hacking on the Atari 7800.">
+<meta name="author" content="John Sohn">
+<link rel="canonical" href="https://johnsmusicandtech.com/posts/force-multiplier-atari-7800-hardware-ai/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://johnsmusicandtech.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://johnsmusicandtech.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://johnsmusicandtech.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://johnsmusicandtech.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://johnsmusicandtech.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://johnsmusicandtech.com/posts/force-multiplier-atari-7800-hardware-ai/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><script data-goatcounter="https://jsohn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><meta property="og:url" content="https://johnsmusicandtech.com/posts/force-multiplier-atari-7800-hardware-ai/">
+  <meta property="og:site_name" content="John&#39;s Music & Tech">
+  <meta property="og:title" content="Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap">
+  <meta property="og:description" content="How AI acted as a &#39;force multiplier&#39; to bridge the gap between software engineering and retro hardware hacking on the Atari 7800.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-20T00:00:00+00:00">
+    <meta property="article:tag" content="Atari-7800">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Hardware">
+    <meta property="article:tag" content="Retro-Computing">
+    <meta property="article:tag" content="Engineering">
+    <meta property="article:tag" content="Ym2149">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap">
+<meta name="twitter:description" content="How AI acted as a &#39;force multiplier&#39; to bridge the gap between software engineering and retro hardware hacking on the Atari 7800.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://johnsmusicandtech.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap",
+      "item": "https://johnsmusicandtech.com/posts/force-multiplier-atari-7800-hardware-ai/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap",
+  "name": "Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap",
+  "description": "How AI acted as a 'force multiplier' to bridge the gap between software engineering and retro hardware hacking on the Atari 7800.",
+  "keywords": [
+    "atari-7800", "ai", "hardware", "retro-computing", "engineering", "ym2149", "6502"
+  ],
+  "articleBody": "The Problem Wasn’t Knowledge — It Was Entry Cost I’ve always wanted to tackle low-level hardware, but the problem was never motivation—it was the high entry cost. Getting oriented enough to begin would have taken weeks or months of reading and false starts, and at this stage in my career, I don’t have unlimited time. Without AI, the orientation cost for this hobby project would have been too high to attempt.\nHow This Escalated So Quickly I started out wanting to write a little Atari 7800 code. Then I heard the TIA sound chip and had the immediate, irrational reaction of a part-time musician: this will not do!\nHear it for yourself: Donkey Kong Atari 7800 Longplay\nThe Atari 7800 had a great video system, but the designers did not have any room left on the PCB for sound. They had planned to use inexpensive on-cart sound, even adding an audio input line on the cartridge, but only two games used it due to higher production costs.\nOnce you notice a limitation you can’t unhear, you either accept it… or you disappear into a sound rabbit hole. And this is where the whole thing started to feel a little like the South Park World of Warcraft episode.\nIf you’re not familiar with it: the kids want to actually win the game, but there’s an almost impossibly powerful character blocking their progress. They can’t beat him head-on, so they spend hours grinding low-level enemies just to level up enough to have a chance. That’s more or less what happened here. At that point, the original goal was effectively on pause and I was grinding a skill tree I never planned to unlock. I wasn’t really “playing the game” anymore — I was fighting bugs in the forest just to level up.\nThis Started as a Pico Project Initially, I planned to use a Raspberry Pi Pico or Arduino to emulate classic PSG sound chips, assuming they were no longer manufactured. However, I discovered that YM2149 clones are still actively produced and can be had for about $2 each. This realization shifted the project’s focus from software emulation to hardware integration, transforming it into a more compelling challenge of wiring real silicon into the system. I see the YM2149 PSG (Programmable Sound Generator) as a bridge to the Atari ST, its big brother. This gives us the Atari ST sound ecosystem, enabling the use of all its tools and sound effects on the 7800. The chip is also period-accurate for the console’s timeframe.\nThe Future of the Pivot: Now that I have a real PSG working, I may revisit the Pico someday. I already have a POKEY emulated on a Pico, and in theory, I should be able to use what I have done with the YM clone, but that is for another time.\nGALs, Latches, and the Perils of the “Quad Write” I eventually settled on using a GAL (Generic Array Logic) to handle the ROM (Read-Only Memory) decoding and capture the incoming commands for the YM2149. To a software guy, a GAL is a beautiful revelation—it’s essentially physical code. You write your logic equations, and the silicon executes them. I could have brute-forced my way through the GAL eventually, but the orientation cost was steep.\nThe real wall, however, was the need for a latch to stabilize the signals heading toward the YM2149. This is where my lack of a “Day 1” EE background really showed. Back in the 80s, an engineer would have possessed a shared mental map of which logic ICs to grab for address decoding. In the modern era, that map is largely a relic. AI served as my translator, taking my software-centric problems and reframing them within that historical, physical context.\nBefore I found the right path, I was attempting to “bit-bang” the chip using what I dubbed “Quad Writes”—essentially slamming the bus with data and praying it would stick. It reached the most dangerous of engineering states: it almost worked. It was flaky, unreliable, and frustrating. The AI acted as a Librarian of Lore, filling in the gaps I didn’t even know existed. I didn’t have the word “latch” in my vocabulary, nor did I realize the 6502 and the YM were speaking entirely different “physical languages.”\nThe AI pointed me toward the 74LS373 transparent latch, and suddenly, everything clicked. It acts as a physical “save button,” holding the address steady while the data pulses through. Do we absolutely need it? I suspect so, but more importantly, it works. Once I had the terminology to bridge the gap, my three decades of engineering experience finally had the traction it needed to take over.\nThe “Silicon Click”: Touching the Fabric of Reality I want to be clear about something that would be “Day 1” common sense for an Electrical Engineer, but for a software guy like me, was an absolute mind-blowing revelation. I’ve spent 30 years moving bits around in memory as abstractions, never really looking at the physical layer. At the start of this, I didn’t even know what the acronym TTL (Transistor-Transistor Logic) actually meant in practice.\nIt might sound embarrassing to a pro, but I had this realization that felt like seeing the code in The Matrix. I looked at the board and thought: ‘Wait… 8-bit system. 8 copper lines on the bus. Binary 0 to 255. Are those the literal binary lanes I’ve been typing into my code for three decades?’\nYes. Yes, they are. Suddenly, those traces weren’t just “wires”; they were the physical manifestation of a byte. A High signal (5V) is a 1; a Low signal (0V) is a 0. Watching a 6502 assembly instruction like STA $A000 trigger a physical electrical pulse across those eight lanes is the closest a developer can get to reaching into the grid—without being sent there by a laser Tron style!\nAI: A Tool for Time Compression and Challenging Assumptions AI served as a tool for time compression, reducing the overhead required to navigate complex historical hardware, but you cannot blindly follow every suggestion. I challenged its outputs by asking “how” and “why” to ensure a genuine understanding of the engineering principles involved. More times than I can remember the AI responded “You were right to challenge me”. Maintaining the responsibility to think is critical; pasting answers without comprehension sets up future failure, whereas using AI to bridge knowledge gaps allows for a deeper, more efficient learning process.\nA Community Project: The Lab Doors are Open This project is, and will remain, Open Source. I’ve reached a point where I feel comfortable opening the doors. There is nothing quite like shouting from the mountains “I am working on this!” only for real-life responsibilities to step in and steal your momentum. I didn’t want this to be another “projected” idea; I wanted it to be a reality.\nI spent a significant amount of time searching for an existing YM2149 implementation for the 7800, and I couldn’t find one. I have also integrated support for YM2149 into my custom forks of A7800 and js7800, so you can hear the results in your browser right now. I’m still deep in the woods, but it is working. The bits are hitting the silicon and music is playing.\nThis system relies on a suite of C# tools I built to generate music from YM and VGM files, allowing us to “stream” 16-bit sound to the 8-bit 7800, providing a stress test for the YM2149/Atari 7800 combo. I want to be clear that these are alpha level C# tools, just enough to get sound working in a 32k EPROM (Erasable Programmable Read-Only Memory). I may completely revisit this down the road.\nThe Full Circle In my teens, this is the kind of project I dreamed about doing. Back then, the gap between writing a few lines of code and actually understanding the physical pulse of the machine felt like an unscalable wall. It’s been an incredible experience to revisit this late in life and finally build what my younger self could only wonder about—albeit a few years later! I crossed a boundary I’d avoided for decades, and I heard the bits move through the wires. Now I am off to build my first PCB!\nThe Lokey 7800 YM Project:\nhttps://github.com/jbsohn/lokey-7800-ym\nExperience the Atari 7800/YM2149 in your browser:\nhttps://jbsohn.github.io/js7800-ym-player/\nMy YouTube Channel (progress videos):\nhttps://www.youtube.com/@johnsmusicandtech\n",
+  "wordCount" : "1395",
+  "inLanguage": "en",
+  "datePublished": "2026-04-20T00:00:00Z",
+  "dateModified": "2026-04-20T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "John Sohn"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://johnsmusicandtech.com/posts/force-multiplier-atari-7800-hardware-ai/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "John's Music \u0026 Tech",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://johnsmusicandtech.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://johnsmusicandtech.com/" accesskey="h" title="John&#39;s Music &amp; Tech (Alt + H)">John&#39;s Music &amp; Tech</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://johnsmusicandtech.com/about/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://johnsmusicandtech.com/">Home</a>&nbsp;»&nbsp;<a href="https://johnsmusicandtech.com/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap
+    </h1>
+    <div class="post-description">
+      How AI acted as a &#39;force multiplier&#39; to bridge the gap between software engineering and retro hardware hacking on the Atari 7800.
+    </div>
+    <div class="post-meta"><span title='2026-04-20 00:00:00 +0000 UTC'>April 20, 2026</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;1395 words&nbsp;·&nbsp;John Sohn
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="the-problem-wasnt-knowledge--it-was-entry-cost">The Problem Wasn’t Knowledge — It Was Entry Cost<a hidden class="anchor" aria-hidden="true" href="#the-problem-wasnt-knowledge--it-was-entry-cost">#</a></h3>
+<p>I’ve always wanted to tackle low-level hardware, but the problem was never motivation—it was the high entry cost. Getting oriented enough to begin would have taken weeks or months of reading and false starts, and at this stage in my career, I don’t have unlimited time. Without AI, the orientation cost for this hobby project would have been too high to attempt.</p>
+<h3 id="how-this-escalated-so-quickly">How This Escalated So Quickly<a hidden class="anchor" aria-hidden="true" href="#how-this-escalated-so-quickly">#</a></h3>
+<p>I started out wanting to write a little Atari 7800 code. Then I heard the TIA sound chip and had the immediate, irrational reaction of a part-time musician: this will not do!</p>
+<p>Hear it for yourself: <a href="https://youtu.be/jWiLt3BSJp0?si=tY9_OHDhfM7b6YP8">Donkey Kong Atari 7800 Longplay</a></p>
+<p>The Atari 7800 had a great video system, but the designers did not have any room left on the PCB for sound. They had planned to use inexpensive on-cart sound, even adding an audio input line on the cartridge, but only two games used it due to higher production costs.</p>
+<p>Once you notice a limitation you can’t unhear, you either accept it… or you disappear into a sound rabbit hole. And this is where the whole thing started to feel a little like the South Park World of Warcraft episode.</p>
+<p>If you’re not familiar with it: the kids want to actually win the game, but there’s an almost impossibly powerful character blocking their progress. They can’t beat him head-on, so they spend hours grinding low-level enemies just to level up enough to have a chance. That’s more or less what happened here. At that point, the original goal was effectively on pause and I was grinding a skill tree I never planned to unlock. I wasn’t really “playing the game” anymore — I was fighting bugs in the forest just to level up.</p>
+<h3 id="this-started-as-a-pico-project">This Started as a Pico Project<a hidden class="anchor" aria-hidden="true" href="#this-started-as-a-pico-project">#</a></h3>
+<p>Initially, I planned to use a Raspberry Pi Pico or Arduino to emulate classic PSG sound chips, assuming they were no longer manufactured. However, I discovered that YM2149 clones are still actively produced and can be had for about $2 each. This realization shifted the project&rsquo;s focus from software emulation to hardware integration, transforming it into a more compelling challenge of wiring real silicon into the system. I see the YM2149 PSG (Programmable Sound Generator) as a bridge to the Atari ST, its big brother. This gives us the Atari ST sound ecosystem, enabling the use of all its tools and sound effects on the 7800. The chip is also period-accurate for the console&rsquo;s timeframe.</p>
+<p><strong>The Future of the Pivot:</strong> Now that I have a real PSG working, I may revisit the Pico someday. I already have a POKEY emulated on a Pico, and in theory, I should be able to use what I have done with the YM clone, but that is for another time.</p>
+<h3 id="gals-latches-and-the-perils-of-the-quad-write">GALs, Latches, and the Perils of the “Quad Write”<a hidden class="anchor" aria-hidden="true" href="#gals-latches-and-the-perils-of-the-quad-write">#</a></h3>
+<p>I eventually settled on using a GAL (Generic Array Logic) to handle the ROM (Read-Only Memory) decoding and capture the incoming commands for the YM2149. To a software guy, a GAL is a beautiful revelation—it’s essentially physical code. You write your logic equations, and the silicon executes them. I could have brute-forced my way through the GAL eventually, but the orientation cost was steep.</p>
+<p>The real wall, however, was the need for a latch to stabilize the signals heading toward the YM2149. This is where my lack of a “Day 1” EE background really showed.
+Back in the 80s, an engineer would have possessed a shared mental map of which logic ICs to grab for address decoding. In the modern era, that map is largely a relic. AI served as my translator, taking my software-centric problems and reframing them within that historical, physical context.</p>
+<p>Before I found the right path, I was attempting to “bit-bang” the chip using what I dubbed “Quad Writes”—essentially slamming the bus with data and praying it would stick. It reached the most dangerous of engineering states: it almost worked. It was flaky, unreliable, and frustrating. The AI acted as a Librarian of Lore, filling in the gaps I didn’t even know existed. I didn’t have the word “latch” in my vocabulary, nor did I realize the 6502 and the YM were speaking entirely different “physical languages.”</p>
+<p><img alt="Atari 7800 YM2149 Prototype Breadboard Setup" loading="lazy" src="/images/7800-ym-prototype.jpg"></p>
+<p>The AI pointed me toward the 74LS373 transparent latch, and suddenly, everything clicked. It acts as a physical “save button,” holding the address steady while the data pulses through. Do we absolutely need it? I suspect so, but more importantly, it works. Once I had the terminology to bridge the gap, my three decades of engineering experience finally had the traction it needed to take over.</p>
+<h3 id="the-silicon-click-touching-the-fabric-of-reality">The &ldquo;Silicon Click&rdquo;: Touching the Fabric of Reality<a hidden class="anchor" aria-hidden="true" href="#the-silicon-click-touching-the-fabric-of-reality">#</a></h3>
+<p>I want to be clear about something that would be &ldquo;Day 1&rdquo; common sense for an Electrical Engineer, but for a software guy like me, was an absolute mind-blowing revelation. I’ve spent 30 years moving bits around in memory as abstractions, never really looking at the physical layer. At the start of this, I didn’t even know what the acronym TTL (Transistor-Transistor Logic) actually meant in practice.</p>
+<p>It might sound embarrassing to a pro, but I had this realization that felt like seeing the code in The Matrix. I looked at the board and thought: &lsquo;Wait&hellip; 8-bit system. 8 copper lines on the bus. Binary 0 to 255. Are those the literal binary lanes I&rsquo;ve been typing into my code for three decades?&rsquo;</p>
+<p>Yes. Yes, they are. Suddenly, those traces weren&rsquo;t just &ldquo;wires&rdquo;; they were the physical manifestation of a byte. A High signal (5V) is a 1; a Low signal (0V) is a 0. Watching a 6502 assembly instruction like STA $A000 trigger a physical electrical pulse across those eight lanes is the closest a developer can get to reaching into the grid—without being sent there by a laser Tron style!</p>
+<h3 id="ai-a-tool-for-time-compression-and-challenging-assumptions">AI: A Tool for Time Compression and Challenging Assumptions<a hidden class="anchor" aria-hidden="true" href="#ai-a-tool-for-time-compression-and-challenging-assumptions">#</a></h3>
+<p>AI served as a tool for time compression, reducing the overhead required to navigate complex historical hardware, but you cannot blindly follow every suggestion. I challenged its outputs by asking &ldquo;how&rdquo; and &ldquo;why&rdquo; to ensure a genuine understanding of the engineering principles involved. More times than I can remember the AI responded “You were right to challenge me”. Maintaining the responsibility to think is critical; pasting answers without comprehension sets up future failure, whereas using AI to bridge knowledge gaps allows for a deeper, more efficient learning process.</p>
+<h3 id="a-community-project-the-lab-doors-are-open">A Community Project: The Lab Doors are Open<a hidden class="anchor" aria-hidden="true" href="#a-community-project-the-lab-doors-are-open">#</a></h3>
+<p>This project is, and will remain, Open Source. I’ve reached a point where I feel comfortable opening the doors. There is nothing quite like shouting from the mountains &ldquo;I am working on this!&rdquo; only for real-life responsibilities to step in and steal your momentum. I didn&rsquo;t want this to be another &ldquo;projected&rdquo; idea; I wanted it to be a reality.</p>
+<p>I spent a significant amount of time searching for an existing YM2149 implementation for the 7800, and I couldn&rsquo;t find one. I have also integrated support for YM2149 into my custom forks of A7800 and js7800, so you can hear the results in your browser right now. I’m still deep in the woods, but it is working. The bits are hitting the silicon and music is playing.</p>
+<p>This system relies on a suite of C# tools I built to generate music from YM and VGM files, allowing us to &ldquo;stream&rdquo; 16-bit sound to the 8-bit 7800, providing a stress test for the YM2149/Atari 7800 combo. I want to be clear that these are alpha level C# tools, just enough to get sound working in a 32k EPROM (Erasable Programmable Read-Only Memory). I may completely revisit this down the road.</p>
+<h3 id="the-full-circle">The Full Circle<a hidden class="anchor" aria-hidden="true" href="#the-full-circle">#</a></h3>
+<p>In my teens, this is the kind of project I dreamed about doing. Back then, the gap between writing a few lines of code and actually understanding the physical pulse of the machine felt like an unscalable wall. It’s been an incredible experience to revisit this late in life and finally build what my younger self could only wonder about—albeit a few years later! I crossed a boundary I’d avoided for decades, and I heard the bits move through the wires. Now I am off to build my first PCB!</p>
+<p><img alt="The Hand-Wired Atari 7800 YM2149 Cartridge Prototype" loading="lazy" src="/images/prototype.jpg"></p>
+<hr>
+<p><strong>The Lokey 7800 YM Project:</strong><br>
+<a href="https://github.com/jbsohn/lokey-7800-ym">https://github.com/jbsohn/lokey-7800-ym</a></p>
+<p><strong>Experience the Atari 7800/YM2149 in your browser:</strong><br>
+<a href="https://jbsohn.github.io/js7800-ym-player/">https://jbsohn.github.io/js7800-ym-player/</a></p>
+<p><strong>My YouTube Channel (progress videos):</strong><br>
+<a href="https://www.youtube.com/@johnsmusicandtech">https://www.youtube.com/@johnsmusicandtech</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+<nav class="paginav">
+  <a class="next" href="https://johnsmusicandtech.com/posts/re-falcon-030-indy-classic/">
+    <span class="title">Next »</span>
+    <br>
+    <span>The Falcon Rises in Indy: Re-Falcon 030 and the Quest for Digital Immortality</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://johnsmusicandtech.com/">John&#39;s Music &amp; Tech</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

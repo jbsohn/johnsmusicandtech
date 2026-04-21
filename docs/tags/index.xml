@@ -4,10 +4,59 @@
     <title>Tags on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/tags/</link>
     <description>Recent content in Tags on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6502</title>
+      <link>https://johnsmusicandtech.com/tags/6502/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/6502/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://johnsmusicandtech.com/tags/ai/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atari-7800</title>
+      <link>https://johnsmusicandtech.com/tags/atari-7800/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/atari-7800/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engineering</title>
+      <link>https://johnsmusicandtech.com/tags/engineering/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://johnsmusicandtech.com/tags/hardware/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retro-Computing</title>
+      <link>https://johnsmusicandtech.com/tags/retro-computing/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/retro-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ym2149</title>
+      <link>https://johnsmusicandtech.com/tags/ym2149/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/tags/ym2149/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Atari Falcon</title>
       <link>https://johnsmusicandtech.com/tags/atari-falcon/</link>
@@ -114,13 +163,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>https://johnsmusicandtech.com/tags/ai/</link>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Open-Source</title>
       <link>https://johnsmusicandtech.com/tags/open-source/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
@@ -139,13 +181,6 @@
       <link>https://johnsmusicandtech.com/tags/vscode/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/tags/vscode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>https://johnsmusicandtech.com/tags/hardware/</link>
-      <pubDate>Thu, 13 Nov 2025 10:00:00 -0500</pubDate>
-      <guid>https://johnsmusicandtech.com/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
@@ -216,13 +251,6 @@
       <link>https://johnsmusicandtech.com/tags/scams/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/tags/scams/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Engineering</title>
-      <link>https://johnsmusicandtech.com/tags/engineering/</link>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -338,7 +366,7 @@
       <description></description>
     </item>
     <item>
-      <title>Pedal-Steel</title>
+      <title>Pedal Steel</title>
       <link>https://johnsmusicandtech.com/tags/pedal-steel/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/tags/pedal-steel/</guid>
@@ -412,13 +440,6 @@
       <link>https://johnsmusicandtech.com/tags/midi/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/tags/midi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Retro Computing</title>
-      <link>https://johnsmusicandtech.com/tags/retro-computing/</link>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://johnsmusicandtech.com/tags/retro-computing/</guid>
       <description></description>
     </item>
     <item>

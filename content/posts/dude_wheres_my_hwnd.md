@@ -111,7 +111,7 @@ Maybe there are architectural realities I'm completely blind to from out here. B
 
 Ultimately, for my project, the realization is deeply ironic. In 2026, the most pragmatic way to build a stable, predictable, high-performance Windows application that respects the operating system isn’t to use the latest, heavily marketed cloud-adjacent SDK. It’s to reach straight back to **WinForms or MFC**—the legacy tools that still remember what a window handle is.
 
-The Petzold spirit isn't dead; it’s just in exile. Here is hoping the current moves at Microsoft makes the next Windows a great place for developers again! I am cautiosly optimisitc based on the new direction from Microsoft.
+The Petzold spirit isn't dead; it’s just in exile. Here is hoping the [current moves at Microsoft](https://www.techpowerup.com/348985/microsofts-windows-11-ui-is-about-to-get-much-more-responsive) make the next Windows a great place for developers again—I remain cautiously optimistic based on this new direction!
 
 ---
 

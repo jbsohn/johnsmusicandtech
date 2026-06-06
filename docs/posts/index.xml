@@ -6,8 +6,15 @@
     <description>Recent content in Posts on John&#39;s Music &amp; Tech</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 15:00:00 -0400</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A 90s Visual C&#43;&#43; Developer’s Look At Modern Windows Development</title>
+      <link>https://johnsmusicandtech.com/posts/dude_wheres_my_hwnd/</link>
+      <pubDate>Sat, 06 Jun 2026 15:00:00 -0400</pubDate>
+      <guid>https://johnsmusicandtech.com/posts/dude_wheres_my_hwnd/</guid>
+      <description>A returning veteran developer takes an honest, outside-looking-in look at the &amp;lsquo;Great Fragmentation&amp;rsquo; of modern Windows UI frameworks and the architectural tragedy of losing the universal window handle.</description>
+    </item>
     <item>
       <title>Force Multiplier: How AI Helped a Software Engineer Bridge the Atari 7800 Hardware Gap</title>
       <link>https://johnsmusicandtech.com/posts/force-multiplier-atari-7800-hardware-ai/</link>

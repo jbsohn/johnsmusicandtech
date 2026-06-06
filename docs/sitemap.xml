@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/posts/dude_wheres_my_hwnd/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/c&#43;&#43;/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/mfc/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/programming-history/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/software-architecture/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/tech/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/win32/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/windows/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/winui-3/</loc>
+    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/tags/6502/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +48,6 @@
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/atari-7800/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/categories/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/engineering/</loc>
@@ -23,22 +59,10 @@
     <loc>https://johnsmusicandtech.com/tags/hardware/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/posts/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/categories/retro-tech/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/retro-computing/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/categories/tech/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/ym2149/</loc>

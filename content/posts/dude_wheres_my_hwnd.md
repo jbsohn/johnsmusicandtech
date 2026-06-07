@@ -10,6 +10,10 @@ tags: ["Win32", "MFC", "WinUI 3", "Windows", "C++", "Programming History"]
 
 ## *Dude, Where’s My HWND?*
 
+![Programming Windows 3.1](/images/petzold-cover.jpg)
+![Programming Windows 3.1](/images/petzold-signed.jpg)
+*My signed copy of Programming Windows 3.1 by Charles Petzold*
+
 ## **I Am A Long Way from Home**
 
 Full disclosure -- I started my career in the early 1990s as a Windows Visual C++ and MFC developer targeting Windows 3.1. That is 16-bit Windows, before Win32 and the first release of Windows NT, which eventually became Windows XP and the Windows 10/11 that we are using today. I spent a little time in the trenches of WinForms around the Y2K scare, and then I stepped away from desktop development for a long time.

@@ -1,33 +1,53 @@
-
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/tags/automotive/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/chevy-bolt/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/chevy-equinox/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/ev/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/moving-up-to-the-equinox-ev/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/tech/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/tech--cars/</loc>
+    <lastmod>2026-07-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/posts/dude_wheres_my_hwnd/</loc>
     <lastmod>2026-06-06T15:00:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/c&#43;&#43;/</loc>
     <lastmod>2026-06-06T15:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/categories/</loc>
-    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/</loc>
-    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/mfc/</loc>
-    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/posts/</loc>
     <lastmod>2026-06-06T15:00:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/programming-history/</loc>
     <lastmod>2026-06-06T15:00:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/categories/software-architecture/</loc>
-    <lastmod>2026-06-06T15:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/</loc>
     <lastmod>2026-06-06T15:00:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/categories/tech/</loc>
@@ -147,9 +167,6 @@
     <loc>https://johnsmusicandtech.com/tags/printers/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/tags/tech/</loc>
-    <lastmod>2025-11-13T10:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/posts/brother-hl-2230-long-term-review/</loc>
     <lastmod>2025-11-13T10:00:00-05:00</lastmod>
   </url><url>
@@ -247,9 +264,6 @@
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/electric-cars/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/ev/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/ownership-review/</loc>

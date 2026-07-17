@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tribute on John&#39;s Music &amp; Tech</title>
+    <link>https://johnsmusicandtech.com/tags/tribute/</link>
+    <description>Recent content in Tribute on John&#39;s Music &amp; Tech</description>
+    <generator>Hugo -- 0.164.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2026 21:52:00 -0400</lastBuildDate>
+    <atom:link href="https://johnsmusicandtech.com/tags/tribute/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Underground Smuggler: Remembering Dave Kendall</title>
+      <link>https://johnsmusicandtech.com/posts/remembering-dave-kendall/</link>
+      <pubDate>Thu, 16 Jul 2026 21:52:00 -0400</pubDate>
+      <guid>https://johnsmusicandtech.com/posts/remembering-dave-kendall/</guid>
+      <description>This post is a tribute to Dave Kendall. It&amp;rsquo;s a reflection on what he did for me as an isolated kid in the mid-eighties, and ultimately, what he did to the entire landscape of popular music.</description>
+    </item>
+  </channel>
+</rss>

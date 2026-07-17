@@ -15,7 +15,7 @@ At the time, my musical world was largely built on looking backward. I liked a l
 
 The first real crack in the wall came when I somehow got my hands on R.E.M.’s Lifes Rich Pageant. That was absolutely the first alternative album I ever owned, and it completely shifted my axis. From there, I stumbled into the raw, furious energy of bands like Hüsker Dü and the Minutemen. The order of what came next is a blur now, but the main thing is that tracing those records led me straight to discovering a tiny "SST Records" logo on a jacket sleeve. I remember staring intensely at it and asking myself: What is SST?
 
-Tracing that label artist-by-artist opened the floodgates. I would buy an album just because it had that label on it and listen to it to hear what I had. I was never disappointed. It was proof that an entire universe of loud, independent, untamed music existed just out of reach. But in a small town with zero access points, actually hearing or seeing it was nearly impossible.
+Tracing that label artist-by-artist opened a whole new world of music. I would buy an album just because it had that label on it and listen to it to hear what I had. I was never disappointed. It was proof that an entire universe of loud, independent, untamed music existed just out of reach. But in a small town with zero access points, actually hearing or seeing it was nearly impossible.
 
 Then I realized this music had a home late on Sunday nights. 
 

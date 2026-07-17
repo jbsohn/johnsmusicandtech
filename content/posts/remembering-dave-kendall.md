@@ -19,8 +19,6 @@ Tracing that label artist-by-artist opened the floodgates. I would buy an album 
 
 Then I realized this music had a home late on Sunday nights. 
 
-![Dave Kendall hosting MTV 120 Minutes in a leather jacket](/images/dave-kendall.jpg "Dave Kendall bringing the underground to late-night TV")
-
 It was always so funny how utterly obsessed with hyper-commercialism MTV was during the day—a a 24-hour machine of overproduced pop songs and corporate commercials. They would actively advertise in industry trade magazines to big corporations, essentially boasting that they had made consumerism cool, and that if they could just get one kid to buy the stuff from MTV, the rest would follow like sheep. They actually published that. It was so brazen that Mike Watt once got his hands on one of those articles and read it verbatim to the crowd from the stage at a fIREHOSE show. 
 
 Yet somehow, despite that ruthless daytime commercial machine, this radical two-hour block managed to smuggle its way onto the airwaves late on Sunday nights. 

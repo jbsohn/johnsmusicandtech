@@ -27,17 +27,17 @@ When *120 Minutes* first hit the airwaves, Dave Kendall was the engine behind it
 
 Before he ever took over the main couch, he’d pop up in these brief, bizarrely lo-fi segments to count down the top ten college radio albums. The lighting was so terrible and draped in grainy video feedback that you couldn't even make out his face. He was just a shadowy outline with a dry, deliberate British accent, broadcasting from the dark, delivering the literal charts of the underground.
 
-{{< youtube id="Pq5JzK2Y_xo" start="18" end="77">}}
+{{< youtube id="Pq5JzK2Y_xo" start="18" end="77" cc_load_policy="0">}}
 
 But when he finally stepped out of the shadows and took over out front, he did a masterclass job of explaining the true spirit of the show—doing it all with a cool, deadpan delivery that didn't need any corporate hype. 
 
-{{< youtube aNzK_gAZkyo >}}
+{{< youtube id="aNzK_gAZkyo" cc_load_policy="0">}}
 
 That presence delivered a lifeline that shattered genre lines. In that two-hour block, Kendall smuggled a whole education into our living rooms. You'd get the stark, political folk of Billy Bragg and the songwriting of Shona Laing, slammed right up against the aggressive, pounding industrial pulse of Ministry—where tracks like "Stigmata" became an absolute staple of the rotation. You'd transition seamlessly between the definitive jangle-pop melancholy of The Smiths, the power-pop hooks of The Smithereens, and the surreal desert punk of the Meat Puppets. 
 
 Most importantly, it was the ultimate proving ground for the loud, ragged heart of the underground—letting you see the blistering, melodic roar of Bob Mould alongside bands like X, Minutemen, fIREHOSE, and Soul Asylum. And I know I am only scratching the surface here; there are dozens of other incredible bands I am totally leaving out. But the pinnacle of it all was The Replacements, whose first "music video" for "Bastards of Young" was the ultimate middle finger to the entire MTV apparatus: a single, unmoving, black-and-white shot of a stereo speaker sitting on a floor. The fact that Kendall played it anyway told you everything you needed to know about the show.
 
-{{< youtube fl9KQ1Mub6Q >}}
+{{< youtube id="fl9KQ1Mub6Q" cc_load_policy="0">}}
 
 When you are the only kid in your town listening to this music, it's incredibly lonely. You feel like an alien in your own school. But on Sunday nights, with *120 Minutes*, you weren't lonely anymore. 
 

@@ -2,31 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://johnsmusicandtech.com/categories/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/editorial/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/history/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/midwest/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/music/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/categories/music-commentary/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/tags/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnsmusicandtech.com/posts/the-hangover-passes/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://johnsmusicandtech.com/tags/120-minutes/</loc>
     <lastmod>2026-07-16T21:52:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/alternative-rock/</loc>
     <lastmod>2026-07-16T21:52:00-04:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/categories/</loc>
-    <lastmod>2026-07-16T21:52:00-04:00</lastmod>
-  </url><url>
     <loc>https://johnsmusicandtech.com/tags/dave-kendall/</loc>
     <lastmod>2026-07-16T21:52:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/categories/essays/</loc>
-    <lastmod>2026-07-16T21:52:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/</loc>
-    <lastmod>2026-07-16T21:52:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/music/</loc>
-    <lastmod>2026-07-16T21:52:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/posts/</loc>
-    <lastmod>2026-07-16T21:52:00-04:00</lastmod>
-  </url><url>
-    <loc>https://johnsmusicandtech.com/tags/</loc>
     <lastmod>2026-07-16T21:52:00-04:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/posts/remembering-dave-kendall/</loc>
@@ -101,10 +116,10 @@
     <loc>https://johnsmusicandtech.com/tags/hardware/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/categories/retro-tech/</loc>
+    <loc>https://johnsmusicandtech.com/tags/retro-computing/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnsmusicandtech.com/tags/retro-computing/</loc>
+    <loc>https://johnsmusicandtech.com/categories/retro-tech/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnsmusicandtech.com/tags/ym2149/</loc>

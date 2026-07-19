@@ -4,10 +4,17 @@
     <title>Categories on John&#39;s Music &amp; Tech</title>
     <link>https://johnsmusicandtech.com/categories/</link>
     <description>Recent content in Categories on John&#39;s Music &amp; Tech</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 21:52:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://johnsmusicandtech.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Commentary</title>
+      <link>https://johnsmusicandtech.com/categories/music-commentary/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://johnsmusicandtech.com/categories/music-commentary/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Essays</title>
       <link>https://johnsmusicandtech.com/categories/essays/</link>
@@ -37,7 +44,7 @@
       <description></description>
     </item>
     <item>
-      <title>Retro Tech</title>
+      <title>Retro-Tech</title>
       <link>https://johnsmusicandtech.com/categories/retro-tech/</link>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://johnsmusicandtech.com/categories/retro-tech/</guid>
